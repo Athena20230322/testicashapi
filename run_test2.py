@@ -33,7 +33,7 @@ styles = '''
 '''
 
 # Store all the scripts to be run in a list
-scripts = ['test4.py', 'test5.py','test6.py','test7.py','test8.py','test9.py']
+scripts = ['test4.py', 'test5.py','test6.py','test7.py','test8.py','test9.py','test10.py','test11.py']
 
 # Initialize counters and empty list to store test results
 pass_count = 0

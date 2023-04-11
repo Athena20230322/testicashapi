@@ -4,11 +4,11 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-path4 = os.path.join('C:', os.sep, 'Final_IcashEndurance', 'icash', 'GetAccountStatusInfo', 'icashendurance',
+path4 = os.path.join('C:', os.sep, 'Final_IcashEndurance', 'icash', 'CreateBarcode', 'icashendurance',
                      'ConsoleApp1', 'bin', 'Debug', 'post4.txt')
-path5 = os.path.join('C:', os.sep, 'Final_IcashEndurance', 'icash', 'GetAccountStatusInfo', 'icashendurance',
+path5 = os.path.join('C:', os.sep, 'Final_IcashEndurance', 'icash', 'CreateBarcode', 'icashendurance',
                      'ConsoleApp1', 'bin', 'Debug', 'post5.txt')
-path6 = os.path.join('C:', os.sep, 'Final_IcashEndurance', 'icash', 'GetAccountStatusInfo', 'icashendurance',
+path6 = os.path.join('C:', os.sep, 'Final_IcashEndurance', 'icash', 'CreateBarcode', 'icashendurance',
                      'ConsoleApp1', 'bin', 'Debug', 'post6.txt')
 
 with open(path4, 'r') as f4, open(path5, 'r') as f5, open(path6, 'r') as f6:

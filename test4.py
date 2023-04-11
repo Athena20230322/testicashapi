@@ -4,9 +4,9 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-path1 = os.path.join('C:', os.sep, 'Final_IcashEndurance', 'icash', 'GetAccountStatusInfo', 'icashendurance', 'ConsoleApp1', 'bin', 'Debug', 'post1.txt')
-path2 = os.path.join('C:', os.sep, 'Final_IcashEndurance', 'icash', 'GetAccountStatusInfo', 'icashendurance', 'ConsoleApp1', 'bin', 'Debug', 'post2.txt')
-path3 = os.path.join('C:', os.sep, 'Final_IcashEndurance', 'icash', 'GetAccountStatusInfo', 'icashendurance', 'ConsoleApp1', 'bin', 'Debug', 'post3.txt')
+path1 = os.path.join('C:', os.sep, 'Final_IcashEndurance', 'icash', 'CreateBarcode', 'icashendurance', 'ConsoleApp1', 'bin', 'Debug', 'post1.txt')
+path2 = os.path.join('C:', os.sep, 'Final_IcashEndurance', 'icash', 'CreateBarcode', 'icashendurance', 'ConsoleApp1', 'bin', 'Debug', 'post2.txt')
+path3 = os.path.join('C:', os.sep, 'Final_IcashEndurance', 'icash', 'CreateBarcode', 'icashendurance', 'ConsoleApp1', 'bin', 'Debug', 'post3.txt')
 
 
 with open(path1, 'r') as f1, open(path2, 'r') as f2, open(path3, 'r') as f3:
