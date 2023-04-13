@@ -4,7 +4,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-postData = os.path.join('C:', os.sep, 'Final_IcashEndurance', 'icash', 'CreateBarcode', 'icashendurance',
+postData = os.path.join('C:', os.sep, 'IcashPost', 'ICPAPIVS', 'CreateBarcode', 'icashendurance',
                         'ConsoleApp1', 'bin', 'Debug', 'postData2.txt')
 
 with open(postData, 'r') as f:
@@ -25,14 +25,20 @@ data1 = {'EncData': enc_data}
 response1 = requests.post(url1, headers=headers1, data=data1, verify=False)
 print(response1)
 
-try:
-    enc_text1 = response1.json()["EncData"]
-    print(enc_text1)
+# Parse the JSON response and extract RtnCode, RtnMsg, and EncData
+response_json = response1.json()
+rtn_code = response_json['RtnCode']
+rtn_msg = response_json['RtnMsg']
+enc_text = response_json['EncData']
 
-    with open("c:\\enc1.txt", 'w') as f:
-        f.write(enc_text1)
+# Print the values of RtnCode, RtnMsg, and EncData
+print(f"RtnCode: {rtn_code}")
+print(f"RtnMsg: {rtn_msg}")
 
-except requests.exceptions.RequestException as e:
-    print("Error: could not decode JSON response from server")
-    print("Response content:", response1.content)
-    print("Exception:", e)
+#print(f"EncData: {enc_text}")
+
+
+#enc_text = response.json()["EncData"]
+
+with open("c:\\enc1.txt", 'w') as f:
+    f.write(enc_text)

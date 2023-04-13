@@ -3,10 +3,10 @@ import json
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
 
-with open('C:/IcashPost/ICPAPIVS/CreateBarcode/icashendurance/ConsoleApp1/bin/Debug/keyiv1.txt', 'r') as f:
+with open('C:/Final_IcashEndurance/icash/M0011ChangeLoginPwd/icashendurance/ConsoleApp1/bin/Debug/keyiv1.txt', 'r') as f:
     key_iv = json.load(f)
 
-with open('C:/enc1.txt', 'r') as f:
+with open('C:/enc.txt', 'r') as f:
     encrypted_data = f.read()
 
 aes_key = key_iv['AES_Key']

@@ -4,8 +4,8 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-postData = os.path.join('C:', os.sep, 'IcashPost', 'ICPAPIVS', 'CreateBarcode', 'icashendurance',
-                        'ConsoleApp1', 'bin', 'Debug', 'postData1.txt')
+postData = os.path.join('C:', os.sep, 'Final_IcashEndurance', 'icash', 'M0011ChangeLoginPwd', 'icashendurance',
+                        'ConsoleApp1', 'bin', 'Debug', 'postData3.txt')
 
 with open(postData, 'r') as f:
     # Read the contents of the file and split into the three variables
@@ -15,7 +15,7 @@ with open(postData, 'r') as f:
     enc_data = file_contents[2]
 
 
-url = 'https://icp-member-stage.icashpay.com.tw/app/MemberInfo/UserCodeLogin2022'
+url = 'https://icp-member-stage.icashpay.com.tw/app/MemberInfo/ChangeLoginPwd'
 
 
 headers = {
@@ -30,19 +30,8 @@ data = {'EncData': enc_data}
 response = requests.post(url, headers=headers, data=data, verify=False)
 print(response)
 
-# Parse the JSON response and extract RtnCode, RtnMsg, and EncData
-response_json = response.json()
-rtn_code = response_json['RtnCode']
-rtn_msg = response_json['RtnMsg']
-enc_text = response_json['EncData']
 
-# Print the values of RtnCode, RtnMsg, and EncData
-print(f"RtnCode: {rtn_code}")
-print(f"RtnMsg: {rtn_msg}")
-#print(f"EncData: {enc_text}")
-
-
-#enc_text = response.json()["EncData"]
+enc_text = response.json()["EncData"]
 
 with open("c:\\enc.txt", 'w') as f:
     f.write(enc_text)
