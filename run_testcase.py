@@ -31,11 +31,8 @@ styles = '''
         }
     </style>
 '''
-#在這個代碼中，我使用 os.listdir('ICPAPI') 來獲取 ICPAPI 目錄下的所有文件和文件夾。
-# 然後使用列表推導式和 endswith() 方法來過濾出所有以 .py 結尾的文件，並使用 os.path.join() 方法來獲取每個文件的完整路徑。
-# 最後，將所有 .py 文件的
-# Get a list of all .py files in the ICPAPI directory
 
+# Get a list of all .py files in the ICPAPI directory
 scripts = [os.path.join('C:\\testicashapi\\Test_Case\\ICPAPI', f) for f in os.listdir('C:\\testicashapi\\Test_Case\\ICPAPI') if f.endswith('.py')]
 
 # Initialize counters and empty list to store test results
@@ -49,7 +46,12 @@ for script in scripts:
     process = subprocess.run(f'python {script}', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     end_time = datetime.datetime.now()
     duration = end_time - start_time
-    if process.returncode == 0:
+    output = process.stdout.decode('utf-8')
+    if 'Test Failed. Expected RtnCode: 1. Actual RtnCode: 0' in output:
+        print(f'{script}: Fail')
+        fail_count += 1
+        test_results.append(('Fail', script, duration))
+    elif process.returncode == 0:
         print(f'{script}: Pass')
         pass_count += 1
         test_results.append(('Pass', script, duration))

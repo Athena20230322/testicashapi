@@ -4,8 +4,10 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-postData = os.path.join('C:', os.sep, 'IcashPost', 'ICPAPIVS', 'CreateBarcode', 'icashendurance',
-                        'ConsoleApp1', 'bin', 'Debug', 'postData2.txt')
+#postData = os.path.join('C:', os.sep, 'IcashPost', 'ICPAPIVS', 'CreateBarcode', 'icashendurance',
+                       # 'ConsoleApp1', 'bin', 'Debug', 'postData2.txt')
+postData = "C:\\postData\\postData2.txt"
+
 
 with open(postData, 'r') as f:
     # Read the contents of the file and split into the three variables

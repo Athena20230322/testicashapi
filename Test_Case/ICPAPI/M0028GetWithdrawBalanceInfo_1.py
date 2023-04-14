@@ -7,7 +7,7 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 #postData = os.path.join('C:', os.sep, 'IcashPost', 'ICPAPIVS', 'CreateBarcode', 'icashendurance',
                        # 'ConsoleApp1', 'bin', 'Debug', 'postData5.txt')
 
-postData = "C:\\postData\\postData5.txt"
+postData = "C:\\postData\\postData6.txt"
 
 with open(postData, 'r') as f:
     # Read the contents of the file and split into the three variables
@@ -16,7 +16,7 @@ with open(postData, 'r') as f:
     signature = file_contents[1]
     enc_data = file_contents[2]
 
-url1 = 'https://icp-Member-stage.icashpay.com.tw/app/MemberInfo/BankAccountAuth'
+url1 = 'https://icp-Member-stage.icashpay.com.tw/app/MemberInfo/GetWithdrawBalanceInfo'
 
 headers1 = {
     'X-ICP-EncKeyID': enc_key_id,
