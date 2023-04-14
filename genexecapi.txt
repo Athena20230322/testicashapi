@@ -1,0 +1,12 @@
+是的，可以使用 pyinstaller 或 py2exe 等打包工具將 Python 脚本打包成可執行文件 exe。
+
+以下是使用 pyinstaller 打包的步骤：
+
+安装 pyinstaller：
+Copy code
+pip install pyinstaller
+進入脚本所在目录，在命令行中執行以下命令：
+css
+Copy code
+pyinstaller --onefile execapi.py
+這將在 dist 文件夾下生成一个名為 execapi.exe 的可執行文件。

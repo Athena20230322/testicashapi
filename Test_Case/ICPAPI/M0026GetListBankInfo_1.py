@@ -44,3 +44,15 @@ print(f"RtnMsg: {rtn_msg}")
 
 with open("c:\\enc1.txt", 'w') as f:
     f.write(enc_text)
+
+# Validate RtnCode value
+test_data_file = "C:\\testicashapi\\Test_Data\\ICPAPI\\M0026GetListBankInfo_1.txt"
+print(test_data_file)
+with open(test_data_file, 'r') as f:
+    file_contents = f.read()
+    expected_rtn_code = file_contents.strip().split(',')[1]
+
+if expected_rtn_code == str(rtn_code):
+    print("Test Passed")
+else:
+    print("Test Failed. Expected RtnCode: %s. Actual RtnCode: %s" % (expected_rtn_code, rtn_code))

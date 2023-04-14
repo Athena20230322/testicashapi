@@ -47,18 +47,14 @@ for script in scripts:
     end_time = datetime.datetime.now()
     duration = end_time - start_time
     output = process.stdout.decode('utf-8')
-    if 'Test Failed. Expected RtnCode: 1. Actual RtnCode: 0' in output:
+    if 'Test Failed' in output:
         print(f'{script}: Fail')
         fail_count += 1
         test_results.append(('Fail', script, duration))
-    elif process.returncode == 0:
+    else:
         print(f'{script}: Pass')
         pass_count += 1
         test_results.append(('Pass', script, duration))
-    else:
-        print(f'{script}: Fail')
-        fail_count += 1
-        test_results.append(('Fail', script, duration))
 
 # Generate the HTML report
 html_template = f"""

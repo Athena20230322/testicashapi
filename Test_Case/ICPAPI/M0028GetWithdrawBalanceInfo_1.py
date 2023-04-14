@@ -32,7 +32,7 @@ print(response1)
 response_json = response1.json()
 rtn_code = response_json['RtnCode']
 rtn_msg = response_json['RtnMsg']
-enc_text = response_json['EncData']
+#enc_text = response_json['EncData']
 
 # Print the values of RtnCode, RtnMsg, and EncData
 print(f"RtnCode: {rtn_code}")
@@ -43,5 +43,18 @@ print(f"RtnMsg: {rtn_msg}")
 
 #enc_text = response.json()["EncData"]
 
-with open("c:\\enc1.txt", 'w') as f:
-    f.write(enc_text)
+#with open("c:\\enc1.txt", 'w') as f:
+   # f.write(enc_text)
+
+
+# Validate RtnCode value
+test_data_file = "C:\\testicashapi\\Test_Data\\ICPAPI\\M0028GetWithdrawBalanceInfo_1.txt"
+print(test_data_file)
+with open(test_data_file, 'r') as f:
+    file_contents = f.read()
+    expected_rtn_code = file_contents.strip().split(',')[1]
+
+if expected_rtn_code == str(rtn_code):
+    print("Test Passed")
+else:
+    print("Test Failed. Expected RtnCode: %s. Actual RtnCode: %s" % (expected_rtn_code, rtn_code))
