@@ -56,6 +56,11 @@ for script in scripts:
         pass_count += 1
         test_results.append(('Pass', script, duration))
 
+# Calculate total count and pass/fail percentages
+total_count = pass_count + fail_count
+pass_percentage = round(pass_count/total_count*100, 2)
+fail_percentage = round(fail_count/total_count*100, 2)
+
 # Generate the HTML report
 html_template = f"""
 <html>
@@ -76,6 +81,9 @@ html_template = f"""
             </tr>
             {''.join([f"<tr><td>{result}</td><td>{test}</td><td>{duration}</td></tr>" for result, test, duration in test_results])}
         </table>
+        <p><strong>Total Count:</strong> {total_count}</p>
+        <p><strong>Pass Percentage:</strong> {pass_percentage:.2f}%</p>
+        <p><strong>Fail Percentage:</strong> {fail_percentage:.2f}%</p>
         <p>Thank you for reviewing the API Test Report!</p>
     </body>
 </html>
