@@ -14,13 +14,13 @@ def run_python_file():
 root = tk.Tk()
 
 # 設置窗口標題
-root.title("選擇Python檔案並執行")
+root.title("選擇Python腳本並執行")
 
 # 設置窗口大小
 root.geometry("400x200")
 
 # 創建一個按鈕
-button = tk.Button(root, text="選擇Python檔案並執行", command=run_python_file)
+button = tk.Button(root, text="選擇Python腳本並並執行", command=run_python_file)
 
 # 將按鈕放置在窗口中央
 button.pack(expand=True, fill="both")
