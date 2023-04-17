@@ -5,31 +5,13 @@ import datetime
 # Define CSS styles for the report
 styles = '''
     <style>
-        body {
-            font-family: sans-serif;
-        }
-        h1 {
-            text-align: center;
-        }
-        table {
-            border-collapse: collapse;
-            margin: auto;
-            width: 80%;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-            vertical-align: top;
-        }
-        th {
-            background-color: #b2c2bf;
-            color: white;
-        }
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-    </style>
+body{font-family:sans-serif;}
+h1{text-align:center;}
+table{border-collapse:collapse;margin:auto;width:80%;}
+th,td{border:1px solid black;padding:8px;text-align:left;vertical-align:top;}
+th{background-color:#b2c2bf;color:white;}
+tr:nth-child(even){background-color:#f2f2f2;}
+</style>
 '''
 
 # Get a list of all .py files in the ICPAPI directory
@@ -63,32 +45,29 @@ pass_percentage = round(pass_count / total_count * 100, 2)
 fail_percentage = round(fail_count / total_count * 100, 2)
 
 # Generate the HTML report
-html_template = f"""
-<html>
-    <head>
-        <title>Test Report</title>
-        {styles}
-    </head>
-    <body>
-        <h1>API Test Report</h1>
-        <p><strong>Total Scripts:</strong> {total_count}</p>
-        <p><strong>Passed Scripts:</strong> {pass_count}</p>
-        <p><strong>Failed Scripts:</strong> {fail_count}</p>
-        <table>
-            <tr>
-                <th>Result</th>
-                <th>Test</th>
-                <th>Duration</th>
-            </tr>
-            {''.join([f"<tr><td>{result}</td><td>{test}</td><td>{duration}</td></tr>" for result, test, duration in test_results])}
-        </table>
-        <p><strong>Pass Percentage:</strong> {pass_percentage:.2f}%</p>
-        <p><strong>Fail Percentage:</strong> {fail_percentage:.2f}%</p>
-        <p>Thank you for reviewing the API Test Report!</p>
-    </body>
-</html>
-"""
-
+html_template = ("<html>"
+                 "<head>"
+                 "<title>Test Report</title>"
+                 f"{styles}"
+                 "</head>"
+                 "<body>"
+                 "<h1>API Test Report</h1>"
+                 f"<p><strong>Total Scripts:</strong> {total_count}</p>"
+                 f"<p><strong>Passed Scripts:</strong> {pass_count}</p>"
+                 f"<p><strong>Failed Scripts:</strong> {fail_count}</p>"
+                 "<table>"
+                 "<tr>"
+                 "<th>Result</th>"
+                 "<th>Test</th>"
+                 "<th>Duration</th>"
+                 "</tr>"
+                 f"{''.join([f'<tr><td>{result}</td><td>{test}</td><td>{duration}</td></tr>' for result, test, duration in test_results])}"
+                 "</table>"
+                 f"<p><strong>Pass Percentage:</strong> {pass_percentage:.2f}%</p>"
+                 f"<p><strong>Fail Percentage:</strong> {fail_percentage:.2f}%</p>"
+                 "<p>Thank you for reviewing the API Test Report!</p>"
+                 "</body>"
+                 "</html>")
 # Save the report to a file
 report_dir = os.path.join(os.getcwd(), 'apireport')
 os.makedirs(report_dir, exist_ok=True)
