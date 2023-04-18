@@ -4,7 +4,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-postData = "C:\\postData\\postData11.txt"
+postData = "C:\\postData\\postData13.txt"
 
 with open(postData, 'r') as f:
     file_contents = f.read().strip().split(',')
@@ -12,7 +12,7 @@ with open(postData, 'r') as f:
     signature = file_contents[1]
     enc_data = file_contents[2]
 
-url1 = 'https://icp-Member-stage.icashpay.com.tw/app/MemberInfo/GetBindAccountList'
+url1 = 'https://icp-Member-stage.icashpay.com.tw/app/MemberInfo/SetLoginPwdIgnorDate'
 
 headers1 = {
     'X-ICP-EncKeyID': enc_key_id,
@@ -38,7 +38,7 @@ with open("c:\\enc1.txt", 'w') as f:
 
 
 # Validate RtnCode value
-test_data_file = "C:\\testicashapi\\Test_Data\\ICPAPI\\M0036GetBindAccountList_3.txt"
+test_data_file = "C:\\testicashapi\\Test_Data\\ICPAPI\\M0038SetLoginPwdIgnorDate_1.txt"
 with open(test_data_file, 'r') as f:
     file_contents = f.read()
     expected_rtn_code = file_contents.strip().split(',')[1]
