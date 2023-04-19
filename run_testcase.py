@@ -2,6 +2,9 @@ import os
 import subprocess
 import datetime
 import base64
+import time
+import keyboard
+
 import matplotlib.pyplot as plt
 
 # Define CSS styles for the report
@@ -24,6 +27,17 @@ scripts = [os.path.join(scripts_dir, f) for f in os.listdir(scripts_dir) if f.en
 pass_count = 0
 fail_count = 0
 test_results = []
+
+# Start the ConsoleApp1.exe program in a new process
+process = subprocess.Popen('C:\\IcashPost\\ICPAPIVS\\CreateBarcode\\icashendurance\\ConsoleApp1\\bin\\Debug\\ConsoleApp1.exe', shell=True)
+
+# Wait for 10 seconds before running the Python scripts
+time.sleep(10)
+keyboard.press_and_release('enter')  # 模擬按下Enter
+time.sleep(1)  # 等待1秒
+keyboard.press_and_release('enter')  # 模擬按下Enter
+time.sleep(1)  # 等待1秒
+keyboard.press_and_release('enter')  # 模擬按下Enter
 
 # Run each script and record the result
 for script in scripts:
