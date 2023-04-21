@@ -18,7 +18,6 @@ styles = '''
         tr:nth-child(even){background-color:#f2f2f2;}
     </style>
 '''
-
 # Get a list of all .py files in the ICPAPI directory
 scripts_dir = 'C:\\testicashapi\\Test_Case\\ICPAPI'
 scripts = [os.path.join(scripts_dir, f) for f in os.listdir(scripts_dir) if f.endswith('.py')]
@@ -137,7 +136,6 @@ html_template = ("<html>"
                  "<p>Thank you for reviewing the API Test Report!</p>"
                  "</body>"
                  "</html>")
-
 # Save the report to a file
 report_dir = os.path.join(os.getcwd(), 'apireport')
 os.makedirs(report_dir, exist_ok=True)
