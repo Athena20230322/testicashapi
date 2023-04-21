@@ -31,7 +31,6 @@ test_results = []
 # Start the ConsoleApp1.exe program in a new process
 process = subprocess.Popen('C:\\IcashPost\\ICPAPIVS\\CreateBarcode\\icashendurance\\ConsoleApp1\\bin\\Debug\\ConsoleApp1.exe', shell=True)
 
-
 # Wait for 10 seconds before running the Python scripts
 time.sleep(10)
 keyboard.press_and_release('enter')  # 模擬按下Enter
