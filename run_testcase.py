@@ -40,8 +40,6 @@ time.sleep(1)  # 等待1秒
 keyboard.press_and_release('enter')  # 模擬按下Enter
 
 
-
-
 # Run each script and record the result
 for script in scripts:
     start_time = datetime.datetime.now()
