@@ -6,7 +6,7 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 #postData = os.path.join('C:', os.sep, 'IcashPost', 'ICPAPIVS', 'CreateBarcode', 'icashendurance',
                        # 'ConsoleApp1', 'bin', 'Debug', 'postData2.txt')
-postData = "C:\\postData\\postData2.txt"
+postData = "C:\\testicashapi\\postData\\postData2.txt"
 
 
 with open(postData, 'r') as f:

@@ -136,11 +136,15 @@ html_template = ("<html>"
                  "<p>Thank you for reviewing the API Test Report!</p>"
                  "</body>"
                  "</html>")
-# Save the report to a file
-report_dir = os.path.join(os.getcwd(), 'apireport')
+
+# Save the report to a file with a timestamp
+report_dir = r'C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI\apireport'
 os.makedirs(report_dir, exist_ok=True)
-report_path = os.path.join(report_dir, f"report_{datetime.datetime.now():%Y-%m-%d_%H-%M-%S}.html")
+timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+report_filename = f"report_{timestamp}.html"
+report_path = os.path.join(report_dir, report_filename)
 with open(report_path, 'w', encoding='utf-8') as f:
     f.write(html_template)
 print(f"Report generated: {report_path}")
+
 

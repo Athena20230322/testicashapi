@@ -4,7 +4,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-postData = "C:\\postData\\postData15.txt"
+postData = "C:\\testicashapi\\postData\\postData15.txt"
 
 with open(postData, 'r') as f:
     file_contents = f.read().strip().split(',')

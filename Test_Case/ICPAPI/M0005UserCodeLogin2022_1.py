@@ -4,7 +4,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-postData = "C:\\postData\\postData1.txt"
+postData = "C:\\testicashapi\\postData\\postData1.txt"
 
 #postData = os.path.join('C:', os.sep, 'IcashPost', 'ICPAPIVS', 'CreateBarcode', 'icashendurance',
                         #'ConsoleApp1', 'bin', 'Debug', 'postData1.txt')
