@@ -13,9 +13,9 @@ for app_path in app_paths:
     try:
         # 使用subprocess运行C#应用程序
         subprocess.run(app_path, check=True)
-        print(f'{app_path} 执行成功')
+        print(f'{app_path} 執行成功')
 
         # 延迟5秒
         time.sleep(5)
     except subprocess.CalledProcessError as e:
-        print(f'{app_path} 执行失败：{e}')
+        print(f'{app_path} 執行失敗：{e}')
