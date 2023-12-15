@@ -28,9 +28,9 @@ fail_count = 0
 test_results = []
 
 directories = [
-    ('ML201', 'C:\\IcashPost\\NewICPLogin\\ML201\\ConsoleApp1\\bin\\Debug\\ConsoleApp1.exe'),
-    ('ML202', 'C:\\IcashPost\\NewICPLogin\\ML202\\ConsoleApp1\\bin\\Debug\\ConsoleApp1.exe'),
-    ('ML203', 'C:\\IcashPost\\NewICPLogin\\ML203\\ConsoleApp1\\bin\\Debug\\ConsoleApp1.exe')
+    ('ML201', 'C:\\IcashPost\\NewICPAPI\\NewLogin\\ML201\\ConsoleApp1\\bin\\Debug\\ConsoleApp1.exe'),
+    ('ML202', 'C:\\IcashPost\\NewICPAPI\\NewLogin\\ML202\\ConsoleApp1\\bin\\Debug\\ConsoleApp1.exe'),
+    ('ML203', 'C:\\IcashPost\\NewICPAPI\\NewLogin\\ML203\\ConsoleApp1\\bin\\Debug\\ConsoleApp1.exe')
 ]
 
 try:
@@ -113,6 +113,7 @@ html_template = ("<html>"
                  "</div>"
                  "</body>"
                  "</html>")
+
 
 # Generate the pie chart
 fig, ax = plt.subplots(figsize=(6, 6))

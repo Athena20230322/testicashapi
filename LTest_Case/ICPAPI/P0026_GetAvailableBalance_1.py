@@ -4,7 +4,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-postData = "C:\\testicashapi\\LpostData\\postData2.txt"
+postData = "C:\\testicashapi\\LpostData\\postData7.txt"
 
 #postData = os.path.join('C:', os.sep, 'IcashPost', 'ICPAPIVS', 'CreateBarcode', 'icashendurance',
                         #'ConsoleApp1', 'bin', 'Debug', 'postData1.txt')
@@ -17,7 +17,7 @@ with open(postData, 'r') as f:
     enc_data = file_contents[2]
 
 
-url = 'https://icp-payment-stage.icashpay.com.tw/app/Payment/GetAvailableBalance'
+url = 'https://icp-payment-stage.icashpay.com.tw/app/TopUpPayment/GetAutoTopUpInfo'
 
 
 headers = {
@@ -50,7 +50,7 @@ with open("c:\\Lenc.txt", 'w') as f:
     f.write(enc_text)
 
 # Validate RtnCode value
-test_data_file = "C:\\testicashapi\\LTest_Data\\ICPAPI\\P0026_GetAvailableBalance_1.txt"
+test_data_file = "C:\\testicashapi\\LTest_Data\\ICPAPI\\P0014_GetAutoTopUpInfo_1.txt"
 with open(test_data_file, 'r') as f:
     file_contents = f.read()
     expected_rtn_code = file_contents.strip().split(',')[1]
