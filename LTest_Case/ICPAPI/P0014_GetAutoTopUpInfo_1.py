@@ -4,7 +4,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-postData = "C:\\testicashapi\\LpostData\\postData6.txt"
+postData = "C:\\testicashapi\\LpostData\\postData7.txt"
 
 #postData = os.path.join('C:', os.sep, 'IcashPost', 'ICPAPIVS', 'CreateBarcode', 'icashendurance',
                         #'ConsoleApp1', 'bin', 'Debug', 'postData1.txt')
@@ -17,7 +17,7 @@ with open(postData, 'r') as f:
     enc_data = file_contents[2]
 
 
-url = 'https://icp-member-stage.icashpay.com.tw/app/MemberInfo/GetRangeNotifyMessageList'
+url = 'https://icp-member-stage.icashpay.com.tw/app/MemberInfo/P0014_GetAutoTopUpInfo_1'
 
 
 headers = {
