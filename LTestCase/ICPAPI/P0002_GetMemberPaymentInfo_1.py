@@ -4,7 +4,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-postData = "C:\\testicashapi\\LpostData\\postData6.txt"
+postData = "C:\\testicashapi\\LpostData\\postData3.txt"
 
 #postData = os.path.join('C:', os.sep, 'IcashPost', 'ICPAPIVS', 'CreateBarcode', 'icashendurance',
                         #'ConsoleApp1', 'bin', 'Debug', 'postData1.txt')
@@ -17,7 +17,7 @@ with open(postData, 'r') as f:
     enc_data = file_contents[2]
 
 
-url = 'https://icp-member-stage.icashpay.com.tw/app/MemberInfo/GetRangeNotifyMessageList'
+url = 'https://icp-payment-stage.icashpay.com.tw/app/Payment/GetMemberPaymentInfo'
 
 
 headers = {
@@ -50,7 +50,7 @@ with open("c:\\Lenc.txt", 'w') as f:
     f.write(enc_text)
 
 # Validate RtnCode value
-test_data_file = "C:\\testicashapi\\LTest_Data\\ICPAPI\\M0030_GetRangeNotifyMessageList_1.txt"
+test_data_file = "C:\\testicashapi\\LTestData\\ICPAPI\\P0002_GetMemberPaymentInfo_1.txt"
 with open(test_data_file, 'r') as f:
     file_contents = f.read()
     expected_rtn_code = file_contents.strip().split(',')[1]
@@ -59,6 +59,3 @@ if expected_rtn_code == str(rtn_code):
     print("Test Passed")
 else:
     print("Test Failed. Expected RtnCode: %s. Actual RtnCode: %s" % (expected_rtn_code, rtn_code))
-
-
-

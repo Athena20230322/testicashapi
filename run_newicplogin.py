@@ -19,7 +19,7 @@ styles = '''
     </style>
 '''
 # Get a list of all .py files in the ICPAPI directory
-scripts_dir = 'C:\\testicashapi\\LTest_Case\\ICPAPI'
+scripts_dir = 'C:\\testicashapi\\LTestCase\\ICPAPI'
 scripts = [os.path.join(scripts_dir, f) for f in os.listdir(scripts_dir) if f.endswith('.py')]
 
 # Initialize counters and empty list to store test results
@@ -27,38 +27,22 @@ pass_count = 0
 fail_count = 0
 test_results = []
 
-directories = [
-    ('ML201', 'C:\\IcashPost\\NewICPAPI\\NewLogin\\ML201\\ConsoleApp1\\bin\\Debug\\ConsoleApp1.exe'),
-    ('ML202', 'C:\\IcashPost\\NewICPAPI\\NewLogin\\ML202\\ConsoleApp1\\bin\\Debug\\ConsoleApp1.exe'),
-    ('ML203', 'C:\\IcashPost\\NewICPAPI\\NewLogin\\ML203\\ConsoleApp1\\bin\\Debug\\ConsoleApp1.exe')
+exe_paths = [
+    'C:\\IcashPost\\NEWICPAPI\\NewLogin\\ML201\\ConsoleApp1\\bin\\Debug\\ConsoleApp1.exe',
+    'C:\\IcashPost\\NEWICPAPI\\NewLogin\\ML202\\ConsoleApp1\\bin\\Debug\\ConsoleApp1.exe',
+    'C:\\IcashPost\\NEWICPAPI\\NewLogin\\ML203\\ConsoleApp1\\bin\\Debug\\ConsoleApp1.exe'
 ]
 
-try:
-    # Start the ConsoleApp1.exe programs in a new process for ML201 and ML202
-    for directory, exe_path in directories[:-1]:
+for exe_path in exe_paths:
+    try:
+        exe_dir = os.path.dirname(exe_path)
+        os.chdir(exe_dir)
         process = subprocess.Popen(exe_path, shell=True)
-        time.sleep(10)  # Adjust sleep duration as needed
-        keyboard.press_and_release('enter')  # Simulate pressing Enter
-        time.sleep(1)  # Wait for 1 second
-
-    # Wait for ML203 to finish
-    ml203_dir, ml203_exe = directories[-1]
-    process_ml203 = subprocess.Popen(ml203_exe, shell=True)
-    time.sleep(10)  # Adjust sleep duration as needed
-    keyboard.press_and_release('enter')  # Simulate pressing Enter
-    time.sleep(1)  # Wait for 1 second
-    keyboard.press_and_release('enter')  # Simulate pressing Enter
-    time.sleep(1)  # Wait for 1 second
-    keyboard.press_and_release('enter')  # Simulate pressing Enter
-
-    # Wait for ML203 process to finish
-    process_ml203.wait()
-
-    # ... (continue with the rest of the script)
-
-except Exception as e:
-    print(f"An exception occurred: {e}")
-    raise  # Re-raise the exception to get more detailed traceback information
+        process.wait()  # Wait for the process to finish
+        print(f"Process for {exe_path} has finished.")
+    except Exception as e:
+        print(f"An exception occurred: {e}")
+        # Handle the exception or re-raise it if needed
 
 
 # Run each script and record the result
