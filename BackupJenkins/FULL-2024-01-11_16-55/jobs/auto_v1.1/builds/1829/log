@@ -1,0 +1,50 @@
+¥Ñ­p®É¾¹±Ò°Ê
+Running as SYSTEM
+«Ø¸m¤¤ ¤u§@°Ï C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+[auto_v1.1] $ cmd /c call C:\Windows\TEMP\jenkins17683044430198296953.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>C:
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>pytest -vs test_demo.py -s -q --alluredir target/allure-results 
+============================= test session starts =============================
+platform win32 -- Python 3.11.1, pytest-7.1.2, pluggy-1.0.0
+benchmark: 4.0.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+plugins: allure-pytest-2.12.0, flaky-3.7.0, asyncio-0.21.0, benchmark-4.0.0, cov-4.0.0, html-3.1.1, integration-0.2.3, json-report-1.5.0, metadata-2.0.4, mock-3.10.0, sugar-0.9.6, testconfig-0.2.0, xdist-3.2.1
+asyncio: mode=Mode.STRICT
+collected 1 item
+
+test_demo.py a çš„æ•¸å€¼ç‚º 2
+b çš„æ•¸å€¼ç‚º 4
+bbb
+.
+
+============================== 1 passed in 0.04s ==============================
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>exit 0 
+[auto_v1.1] $ cmd /c call C:\Windows\TEMP\jenkins4188506978123786962.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>C:
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>pytest -vs test_demo1.py -s -q --alluredir target/allure-results 
+============================= test session starts =============================
+platform win32 -- Python 3.11.1, pytest-7.1.2, pluggy-1.0.0
+benchmark: 4.0.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+plugins: allure-pytest-2.12.0, flaky-3.7.0, asyncio-0.21.0, benchmark-4.0.0, cov-4.0.0, html-3.1.1, integration-0.2.3, json-report-1.5.0, metadata-2.0.4, mock-3.10.0, sugar-0.9.6, testconfig-0.2.0, xdist-3.2.1
+asyncio: mode=Mode.STRICT
+collected 1 item
+
+test_demo1.py a çš„æ•¸å€¼ç‚º 6
+b çš„æ•¸å€¼ç‚º 10
+.
+
+============================== 1 passed in 0.03s ==============================
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>exit 0 
+[auto_v1.1] $ C:\allure-2.20.1\bin\allure.bat generate C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-results -c -o C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-report
+Report successfully generated to C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: SUCCESS

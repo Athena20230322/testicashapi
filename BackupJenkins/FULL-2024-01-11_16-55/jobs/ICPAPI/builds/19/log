@@ -1,0 +1,164 @@
+¥Ñ¨Ï¥ÎªÌ [8mha:////4A1U7Qooju7bdClrTlY6u2ZYDAMIeKZGrEy/JEoBt3btAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9xJTEPACulnT/vwAAAA==[0madan ±Ò°Ê
+Running as SYSTEM
+«Ø¸m¤¤ ¤u§@°Ï C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI
+The recommended git tool is: NONE
+using credential 4d309da6-1441-4322-bb91-f245a8dec50f
+ > C:\Program Files\Git\bin\git.exe rev-parse --resolve-git-dir C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI\.git # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/Athena20230322/testicashapi.git # timeout=10
+Fetching upstream changes from https://github.com/Athena20230322/testicashapi.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > git --version # 'git version 2.39.0.windows.2'
+using GIT_ASKPASS to set credentials 
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress -- https://github.com/Athena20230322/testicashapi.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision d04993cd171d2c426c55ae24d37768554d35a5d1 (refs/remotes/origin/main)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f d04993cd171d2c426c55ae24d37768554d35a5d1 # timeout=10
+Commit message: "updatetesticashapi04241706"
+ > C:\Program Files\Git\bin\git.exe rev-list --no-walk d04993cd171d2c426c55ae24d37768554d35a5d1 # timeout=10
+[Checks API] No suitable checks publisher found.
+[ICPAPI] $ cmd /c call C:\Windows\TEMP\jenkins9701670850397273209.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI>cmd /c "C:\Python\python.exe -m pytest C:\testicashapi\run_testcase.py --alluredir=target/allure-results && allure serve target/allure-results" 
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Python\Lib\site-packages\pytest\__main__.py", line 5, in <module>
+    raise SystemExit(pytest.console_main())
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\_pytest\config\__init__.py", line 187, in console_main
+    code = main()
+           ^^^^^^
+  File "C:\Python\Lib\site-packages\_pytest\config\__init__.py", line 145, in main
+    config = _prepareconfig(args, plugins)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\_pytest\config\__init__.py", line 324, in _prepareconfig
+    config = pluginmanager.hook.pytest_cmdline_parse(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\pluggy\_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\pluggy\_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\pluggy\_callers.py", line 55, in _multicall
+    gen.send(outcome)
+  File "C:\Python\Lib\site-packages\_pytest\helpconfig.py", line 102, in pytest_cmdline_parse
+    config: Config = outcome.get_result()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\pluggy\_result.py", line 60, in get_result
+    raise ex[1].with_traceback(ex[2])
+  File "C:\Python\Lib\site-packages\pluggy\_callers.py", line 39, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\_pytest\config\__init__.py", line 1016, in pytest_cmdline_parse
+    self.parse(args)
+  File "C:\Python\Lib\site-packages\_pytest\config\__init__.py", line 1304, in parse
+    self._preparse(args, addopts=addopts)
+  File "C:\Python\Lib\site-packages\_pytest\config\__init__.py", line 1187, in _preparse
+    self.pluginmanager.load_setuptools_entrypoints("pytest11")
+  File "C:\Python\Lib\site-packages\pluggy\_manager.py", line 287, in load_setuptools_entrypoints
+    plugin = ep.load()
+             ^^^^^^^^^
+  File "C:\Python\Lib\importlib\metadata\__init__.py", line 202, in load
+    module = import_module(match.group('module'))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "C:\Python\Lib\site-packages\_pytest\assertion\rewrite.py", line 168, in exec_module
+    exec(co, module.__dict__)
+  File "C:\Python\Lib\site-packages\allure_pytest\plugin.py", line 3, in <module>
+    import allure
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "C:\Python\Lib\site-packages\_pytest\assertion\rewrite.py", line 168, in exec_module
+    exec(co, module.__dict__)
+  File "C:\Python\Lib\site-packages\allure\__init__.py", line 1, in <module>
+    from allure.pytest_plugin import MASTER_HELPER
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "C:\Python\Lib\site-packages\_pytest\assertion\rewrite.py", line 168, in exec_module
+    exec(co, module.__dict__)
+  File "C:\Python\Lib\site-packages\allure\pytest_plugin.py", line 9, in <module>
+    from allure.common import AllureImpl, StepContext
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "C:\Python\Lib\site-packages\_pytest\assertion\rewrite.py", line 168, in exec_module
+    exec(co, module.__dict__)
+  File "C:\Python\Lib\site-packages\allure\common.py", line 19, in <module>
+    from allure.structure import Attach, TestStep, TestCase, TestSuite, Failure, Environment, EnvParameter
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "C:\Python\Lib\site-packages\_pytest\assertion\rewrite.py", line 168, in exec_module
+    exec(co, module.__dict__)
+  File "C:\Python\Lib\site-packages\allure\structure.py", line 14, in <module>
+    class Attach(xmlfied('attachment',
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\allure\rules.py", line 116, in xmlfied
+    class MyImpl(namedlist('XMLFied', [(item[0], None) for item in items])):
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\namedlist.py", line 398, in namedlist
+    fields, defaults = _fields_and_defaults(typename, field_names, default, rename)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\namedlist.py", line 252, in _fields_and_defaults
+    if isinstance(field_names, _collections.Mapping):
+                               ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'collections' has no attribute 'Mapping'
+
+C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI>exit 1 
+Build step '°õ¦æ Windows §å¦¸«ü¥O' marked build as failure
+[ICPAPI] $ C:\allure-2.20.1\bin\allure.bat generate -c -o C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI\allure-report
+allure-results does not exist
+Report successfully generated to C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI\allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Build did not succeed and the project is configured to only push after a successful build, so no pushing will occur.
+Sending e-mails to: autoicash2023@gmail.com
+ERROR: Couldn't connect to host, port: smtp.gmail.com, 25; timeout 60000
+com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 25; timeout 60000;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2210)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722)
+	at jakarta.mail.Service.connect(Service.java:342)
+	at jakarta.mail.Service.connect(Service.java:222)
+	at jakarta.mail.Service.connect(Service.java:171)
+	at jakarta.mail.Transport.send0(Transport.java:230)
+	at jakarta.mail.Transport.send(Transport.java:100)
+	at hudson.tasks.MailSender.run(MailSender.java:131)
+	at hudson.tasks.Mailer.perform(Mailer.java:175)
+	at hudson.tasks.Mailer.perform(Mailer.java:138)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:767)
+	at hudson.model.Build$BuildExecution.post2(Build.java:179)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:711)
+	at hudson.model.Run.execute(Run.java:1925)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:333)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:214)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2160)
+	... 18 more
+[Checks API] No suitable checks publisher found.
+Finished: FAILURE

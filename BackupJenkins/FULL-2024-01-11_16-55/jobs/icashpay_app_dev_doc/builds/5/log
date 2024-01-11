@@ -1,0 +1,34 @@
+由使用者 unknown or anonymous 啟動
+Running as SYSTEM
+建置中 工作區 C:\ProgramData\Jenkins\.jenkins\workspace\icashpay_app_dev_doe
+The recommended git tool is: NONE
+No credentials specified
+ > C:\Program Files\Git\bin\git.exe rev-parse --resolve-git-dir C:\ProgramData\Jenkins\.jenkins\workspace\icashpay_app_dev_doe\.git # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc.git # timeout=10
+Fetching upstream changes from http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > git --version # 'git version 2.39.0.windows.2'
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress -- http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision b56746a2f1f4b3a2d6b071499954087a2dfedf48 (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f b56746a2f1f4b3a2d6b071499954087a2dfedf48 # timeout=10
+Commit message: "Update README.md"
+ > C:\Program Files\Git\bin\git.exe rev-list --no-walk b56746a2f1f4b3a2d6b071499954087a2dfedf48 # timeout=10
+[Checks API] No suitable checks publisher found.
+[icashpay_app_dev_doe] $ cmd /c call C:\Windows\TEMP\jenkins5201632295308965544.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\icashpay_app_dev_doe>cd C:/icashpay_app_dev_doc 
+
+C:\icashpay_app_dev_doc>git pull 
+From http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc
+   1530c9c..b56746a  master     -> origin/master
+Updating 1530c9c..b56746a
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\icashpay_app_dev_doc>exit 0 
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

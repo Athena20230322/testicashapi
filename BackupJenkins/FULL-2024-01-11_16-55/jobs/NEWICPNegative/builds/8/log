@@ -1,0 +1,44 @@
+�ѨϥΪ� unknown or anonymous �Ұ�
+Running as SYSTEM
+�ظm�� �u�@�� C:\ProgramData\Jenkins\.jenkins\workspace\NEWICPNegative
+[NEWICPNegative] $ cmd /c call C:\Windows\TEMP\jenkins51554712620517510.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\NEWICPNegative>cmd /c "C:\Python\python.exe C:\testicashapi\run_nagative.py" 
+回傳：{"RtnCode":1,"RtnMsg":"訊息代碼：0001，成功","DefaultPubCertID":1,"DefaultPubCert":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4pgu8gTfBSM1HA69jakqet6YXtyy6ChqrVuhfaYUYLoxogbcz7QGrAAB/eRc4Ft9rdoh2xC4BEqeOqYTmm4mR+EIF+d+SQXPH79DP8QoTiBvZFcfeckGBsOEFkk6W0LGqhXIKXg/pQ1wilfh1iWybBx7j5Teo3X7s6pTIf11GmL8BkjkQvdVeDX8s/bQBtKjRvLIUMROeuUEuWvq3rJP7o5E5n2tyw/IeT91Q7thoj691CQbJetZF0Nnj9pJgSw4u1EyvQDxbjRZkuh6PwRAy5Ik6sJ97ghdlrNAkFilYr8kPJoFdqf9bxNa9YpsjptahWNAGvPKViDNbyq8SuR42QIDAQAB"}
+MIIEpAIBAAKCAQEAuXbMP5nR6YNgAcAlGBzjbNgjGGlLszmeHT9DsXLhkWZ74+BP3YAXusho2jS5X7VjWONFzPafsa1oRNUpx642JXq3OqXGUWtzj9tireTfZn+nlok4GNnChkav8VD4QnUkdoz2herA+wfHomaue1VwzoJS44cxlosURuOi2H3NDwgySvqVFwcY1rntSrVCdf27W5bXytSxdyK43Uw0hwzm8P//0HL327739YtlCq8//lMtFya98gGJuFAiJz23JHXA2GyofZ1RoFKrEAJUXsPUa7A1Cm9lOxqqLQhyt9Eb3M+neJ26ZSfWKCL+998zzmdpGW7/0zwA0BHH4fnmC0xx8QIDAQABAoIBAQCMisDGpYrTmNGlIfU6K5IQBk26DvjljRELesiSbMsQgwf5LB95a7sPuRTz3iZnp63sSvW3F2D2pMCyAJLTlWnExxSYpcz+IB4Hcql5u0mrg6r8wWk4M7RcSq7DgKdQvTJvf+zEmJu63y9iGsu3/IwqgcnMT8O9IBGykofx5IsDCtnKQbfbXmyyyjNVWDuH4/x9TR3pHNObpco8MkCXcBnoHPe71Q0Ns7or+NKIWyqHAOBv0LUPffk69bZ1dcsKnV4b2DNtDfhIRUKEnbYGbg89Biesu1kgs33Y8POisU5mh6soA4QnKhV/njYQXcEVpG78oTOcKhvvSC0lKOoXGxkNAoGBANsthrrb+I7s7OWthcgDLoUP/pwwZOBpvs8HTSbsa2tAahbZ+5fhnfjqKInFjQy1ry5JFix0AY/vPfknhsvir2uK2hfVvzaAJm2vKz80ap1xJmKhwNhfztIhVRT2a0tJDnQ7a/A3kGGeFnw2fY8GjHphWHn0TASOhrbFQdd0s8SbAoGBANifTENxll2ooUfivEkxu7hVH2Y/TWJl7RTsq2SLpxb5rjSBrSj7fanqWsbEytfviJxu9C04mfb8m7zzDZ0vrfKSuMfrHUU7yLKWZECX6YC8yaTzJ1D2okKnY/Bg+TA5aYzu5poQu/E2oZPHTh7OjxEgbeeniSSAkympmQjR695jAoGAV0HRsJSgaO5EBdBGQXGa1JigibfugTU4JJ3IhmV7AnDbi4tu0XGd/ZnjV64RUG0IeAnazQnGEXJynr2wuXzez5aw6upKvLzaD7K8KeaJR3LjkELLTpkd8qQYhkbwQkGsgnOhrjnAvkw8sWjUJdu6k4IrwimTFgFT+nGfm9I3O18CgYEAgFwUYrqB8UmlF+Wg0HZp19aI3puQDUh8bbO388JU5mZY9cAJjYlIc1DtLW8bC01i099jTRCHGzWgSxxy6ruABYcvezc0hvvf9wLqsOPTd3dmvRlgKLeceoaZz6yGvC6o/tvpRU25MDvBDsJA5jxbxjhDJ8u8liaiDUPz7KgHbiUCgYAuB9D42L0ELZJyBUqBdvdYA6A9wzdyKcUqDfW6YJD5HuB5YCTLAlYteZB36MKZr4eQNvSgxgrVlR6dFwajknFw0SGq2tANd9/vO581+F4sFrwFdOEWHvkTESSCrumNImsV6O3fgocEcaMklD8Pf1nJUDr4YXD7ZguBYZhbFdlZzw==
+1234567890
+168168168
+{"EncKeyID":254058,"AES_Key":"Sj27eWvowlgpsJkm4fqTCn8OfFD38zNN","AES_IV":"7MGBRILS6kZv2eJY","ExpireDate":"2023/12/21 10:25:07","Timestamp":"2023/12/20 10:25:07"}
+SendOTP
+{"AuthCode":"171506","ExpireMinutes":"5"}
+171506
+無法解析的 Timestamp：
+Timestamp 誤差過大：
+SendOTP
+{"EncData":"pChXxbZjW4+Ix/LUx+tR9YonAmjv4CxPL8mHw+OoCrlZlab3FNdRC/71lDvQ8E8b","RtnCode":1,"RtnMsg":"訊息代碼：0001，成功"}
+回傳：{"RtnCode":1,"RtnMsg":"訊息代碼：0001，成功","DefaultPubCertID":1,"DefaultPubCert":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4pgu8gTfBSM1HA69jakqet6YXtyy6ChqrVuhfaYUYLoxogbcz7QGrAAB/eRc4Ft9rdoh2xC4BEqeOqYTmm4mR+EIF+d+SQXPH79DP8QoTiBvZFcfeckGBsOEFkk6W0LGqhXIKXg/pQ1wilfh1iWybBx7j5Teo3X7s6pTIf11GmL8BkjkQvdVeDX8s/bQBtKjRvLIUMROeuUEuWvq3rJP7o5E5n2tyw/IeT91Q7thoj691CQbJetZF0Nnj9pJgSw4u1EyvQDxbjRZkuh6PwRAy5Ik6sJ97ghdlrNAkFilYr8kPJoFdqf9bxNa9YpsjptahWNAGvPKViDNbyq8SuR42QIDAQAB"}
+168168168
+{"EncKeyID":254059,"AES_Key":"QTnjcbEj6zPDobrA4Im9avNpF6Jf3sM7","AES_IV":"l4wVH5fbhXk6qU0J","ExpireDate":"2023/12/21 10:25:18","Timestamp":"2023/12/20 10:25:18"}
+
+
+   無法列印例外狀況字串，因為 Exception.ToString() 失敗。
+回傳：{"RtnCode":1,"RtnMsg":"訊息代碼：0001，成功","DefaultPubCertID":1,"DefaultPubCert":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4pgu8gTfBSM1HA69jakqet6YXtyy6ChqrVuhfaYUYLoxogbcz7QGrAAB/eRc4Ft9rdoh2xC4BEqeOqYTmm4mR+EIF+d+SQXPH79DP8QoTiBvZFcfeckGBsOEFkk6W0LGqhXIKXg/pQ1wilfh1iWybBx7j5Teo3X7s6pTIf11GmL8BkjkQvdVeDX8s/bQBtKjRvLIUMROeuUEuWvq3rJP7o5E5n2tyw/IeT91Q7thoj691CQbJetZF0Nnj9pJgSw4u1EyvQDxbjRZkuh6PwRAy5Ik6sJ97ghdlrNAkFilYr8kPJoFdqf9bxNa9YpsjptahWNAGvPKViDNbyq8SuR42QIDAQAB"}
+168168168
+{"EncKeyID":254060,"AES_Key":"NkGj6wQzVXY9FGKPQbYN2YCkAJG8Dy2V","AES_IV":"J37vk5BZ2bhveahD","ExpireDate":"2023/12/21 10:25:29","Timestamp":"2023/12/20 10:25:29"}
+16616166
+{"IsNewVer":1}
+無法解析的 Timestamp：
+Timestamp 誤差過大：
+VerifyAccount
+{"EncData":"BN7ZNbU019tjJ1iCWtTvYg==","RtnCode":1,"RtnMsg":"訊息代碼：0001，成功"}
+16616166
+{"FingerPrintPwd":"14b7cfbd-a9dc-48e8-91cc-1ee1ba906da5","GraphicLockStatus":0}
+無法解析的 Timestamp：
+Timestamp 誤差過大：
+GetMemberData
+{"EncData":"YZ6P9JrdfZ8kIx3Ba6/z9RxuykkKyH9upY8AYZ56ycfUUmdfTv/bmk4Jgr42ErkgV8J2pRL8tc8e3nX/+I2KCmSqdeCoEedxwJA8d1Vhp5E=","RtnCode":1,"RtnMsg":"訊息代碼：0001，成功"}
+Chart generated: C:\ProgramData\Jenkins\.jenkins\workspace\NEWICPNegative\apichart\chart_2023-12-20_10-25-40.png
+Report generated: C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI\Negativeapireport\report_2023-12-20_10-25-40.html
+
+C:\ProgramData\Jenkins\.jenkins\workspace\NEWICPNegative>exit 0 
+Finished: SUCCESS

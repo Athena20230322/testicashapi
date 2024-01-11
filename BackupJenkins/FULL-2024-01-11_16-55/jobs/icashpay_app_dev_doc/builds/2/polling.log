@@ -1,0 +1,12 @@
+Started on 2023年6月29日 下午3:36:58
+Using strategy: Default
+[poll] Last Built Revision: Revision 43b02de7d7b8e2026a54052ee7860d0ae34c5a48 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > git --version # 'git version 2.39.0.windows.2'
+ > C:\Program Files\Git\bin\git.exe ls-remote -h -- http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc.git # timeout=10
+Found 5 remote heads on http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc.git
+[poll] Latest remote head revision on refs/heads/master is: 1530c9c6c0141bc6f7b6beb22e5c854e9d78754f
+Done. Took 1.5 秒
+Changes found

@@ -1,0 +1,22 @@
+¥Ñ¨Ï¥ÎªÌ unknown or anonymous ±Ò°Ê
+Running as SYSTEM
+«Ø¸m¤¤ ¤u§@°Ï C:\ProgramData\Jenkins\.jenkins\workspace\NotLoginedAPI
+[NotLoginedAPI] $ cmd /c call C:\Windows\TEMP\jenkins1414417494397182433.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\NotLoginedAPI>cmd /c "C:\Python\python.exe C:\testicashapi\run_notlogined.py" 
+å›žå‚³ï¼š{"RtnCode":1,"RtnMsg":"è¨Šæ¯ä»£ç¢¼ï¼š0001ï¼ŒæˆåŠŸ","DefaultPubCertID":1,"DefaultPubCert":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4pgu8gTfBSM1HA69jakqet6YXtyy6ChqrVuhfaYUYLoxogbcz7QGrAAB/eRc4Ft9rdoh2xC4BEqeOqYTmm4mR+EIF+d+SQXPH79DP8QoTiBvZFcfeckGBsOEFkk6W0LGqhXIKXg/pQ1wilfh1iWybBx7j5Teo3X7s6pTIf11GmL8BkjkQvdVeDX8s/bQBtKjRvLIUMROeuUEuWvq3rJP7o5E5n2tyw/IeT91Q7thoj691CQbJetZF0Nnj9pJgSw4u1EyvQDxbjRZkuh6PwRAy5Ik6sJ97ghdlrNAkFilYr8kPJoFdqf9bxNa9YpsjptahWNAGvPKViDNbyq8SuR42QIDAQAB"}
+112111
+112112
+169169169
+ICP.KeyExchange.TestLibrary.Helpers.RsaCryptoHelper
+16788888
+{"ServerPubCert":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApBpZGCwpAYgHf6B7y3x3H2WNTWRigeAvuVjzzoo70ovIgZ/tuc1xJsDNRJvwgvCpexsjodbWT4Wrcw9UaDaR7l3GGKZAGrP+RKoHcnovUMEq8V6aVhkmah+t/c38FXtCJ4vdCDQcouw3kDo+eA2a+oBCUfBGm9T8B3+6k5WSGOGeZptgbUV/lJNLPrBER+slMrC5RcjeHHWM1c0SL+CB8fFd8C/NPQ9DKEgEQzmYIHaakNR/V3SN50tPxVqB7rTmuBNWIQq2ef0+YoTyyOjfRkZSyFbrcxZBt59HgrjIiTt5ZkmgYStV/g1gxIoLHZIUPZlQO39rEfMOHYixHGTVewIDAQAB","ServerPubCertID":189769,"ExpireDate":"2023/12/14 05:46:48","Timestamp":"2023/12/13 17:46:48"}
+167167167
+{"ServerPubCert":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApBpZGCwpAYgHf6B7y3x3H2WNTWRigeAvuVjzzoo70ovIgZ/tuc1xJsDNRJvwgvCpexsjodbWT4Wrcw9UaDaR7l3GGKZAGrP+RKoHcnovUMEq8V6aVhkmah+t/c38FXtCJ4vdCDQcouw3kDo+eA2a+oBCUfBGm9T8B3+6k5WSGOGeZptgbUV/lJNLPrBER+slMrC5RcjeHHWM1c0SL+CB8fFd8C/NPQ9DKEgEQzmYIHaakNR/V3SN50tPxVqB7rTmuBNWIQq2ef0+YoTyyOjfRkZSyFbrcxZBt59HgrjIiTt5ZkmgYStV/g1gxIoLHZIUPZlQO39rEfMOHYixHGTVewIDAQAB","ServerPubCertID":189769,"ExpireDate":"2023/12/14 05:46:48","Timestamp":"2023/12/13 17:46:48"}
+168168168
+{"EncKeyID":253176,"AES_Key":"H9wl399VmC58FQW6HOSw1Qtdw2SrI9HO","AES_IV":"BpEEIG4aSaFyC0cv","ExpireDate":"2023/12/14 17:46:48","Timestamp":"2023/12/13 17:46:48"}
+Chart generated: C:\ProgramData\Jenkins\.jenkins\workspace\NotLoginedAPI\apichart\chart_2023-12-13_17-47-08.png
+Report generated: C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI\notloginedapireport\report_2023-12-13_17-47-08.html
+
+C:\ProgramData\Jenkins\.jenkins\workspace\NotLoginedAPI>exit 0 
+Finished: SUCCESS

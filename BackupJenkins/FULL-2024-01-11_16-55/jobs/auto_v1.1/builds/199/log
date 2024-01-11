@@ -1,0 +1,19 @@
+¥Ñ¨Ï¥ÎªÌ [8mha:////4A1U7Qooju7bdClrTlY6u2ZYDAMIeKZGrEy/JEoBt3btAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9xJTEPACulnT/vwAAAA==[0madan ±Ò°Ê
+Running as SYSTEM
+«Ø¸m¤¤ ¤u§@°Ï C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+[auto_v1.1] $ cmd /c call C:\Windows\TEMP\jenkins4879547989994163790.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>C:
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>pytest -vs test1/test.py -s -q --alluredir target/allure-results 
+============================= test session starts =============================
+platform win32 -- Python 3.11.1, pytest-7.2.0, pluggy-1.0.0
+rootdir: C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+plugins: allure-pytest-2.12.0, html-3.2.0, json-report-1.5.0, metadata-2.0.4, testconfig-0.2.0
+Hello world112
+collected 0 items
+
+============================ no tests ran in 0.02s ============================
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>exit 0 
+Finished: SUCCESS

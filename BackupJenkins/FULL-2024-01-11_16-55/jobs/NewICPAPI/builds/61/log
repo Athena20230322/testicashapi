@@ -1,0 +1,35 @@
+�ѨϥΪ� unknown or anonymous �Ұ�
+Running as SYSTEM
+�ظm�� �u�@�� C:\ProgramData\Jenkins\.jenkins\workspace\NewICPAPI
+[NewICPAPI] $ cmd /c call C:\Windows\TEMP\jenkins14039787242750084324.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\NewICPAPI>cmd /c "C:\Python\python.exe C:\testicashapi\run_newicplogin.py" 
+回傳：{"RtnCode":1,"RtnMsg":"訊息代碼：0001，成功","DefaultPubCertID":1,"DefaultPubCert":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4pgu8gTfBSM1HA69jakqet6YXtyy6ChqrVuhfaYUYLoxogbcz7QGrAAB/eRc4Ft9rdoh2xC4BEqeOqYTmm4mR+EIF+d+SQXPH79DP8QoTiBvZFcfeckGBsOEFkk6W0LGqhXIKXg/pQ1wilfh1iWybBx7j5Teo3X7s6pTIf11GmL8BkjkQvdVeDX8s/bQBtKjRvLIUMROeuUEuWvq3rJP7o5E5n2tyw/IeT91Q7thoj691CQbJetZF0Nnj9pJgSw4u1EyvQDxbjRZkuh6PwRAy5Ik6sJ97ghdlrNAkFilYr8kPJoFdqf9bxNa9YpsjptahWNAGvPKViDNbyq8SuR42QIDAQAB"}
+MIIEpAIBAAKCAQEAzRP2ixO1rmgNfR9JRZqumG46Cy99IJfAIUwWjJ587uQdWWVRBPrKDcW2dq+7HDq7hGbkol1FtEGwq0acvCmINKmpXHOeHOxB8W1H9a2TQP/cdoTT4YEMLNP6L207Cr/CBPDzHHNynjm5r11oISir3rZUZxQXU5ncjgNpQSaKeC+qlMOKjY1CJx7W9isSdYGNislq1gacNhbZd+OLUTGtLU9uklE9mbSQbMCas7r/y4C+HtH2ct5ruYsmHPJR6f7pgqlBwX/MzXMdiwZPDk5qvSE5SblFZklSwZfqp+nTVC4hBpK32BFxP6q3vP7iq8UfnF24nEXOrY0O3F6wdANHtQIDAQABAoIBACRfrhLs5ASTIBFZQz29Ocp/gnwJaEAnqkQ9oqI+WhplC2+XsM8ZTE01DC/w61cOc8QAG/1QXdSi8hru403cb/QnQ4rKVvj6Tpfrsh+5Ma0NtKSw2oPcx7QLxQw0a4x0ho0pz3T0ZRf7VRvtjVKUTCesXzwJLDn/yEbIBBsyIs0+FX1r31/u+I1WOBwjrZoOXjTL1b+XpxYySWihnw+fRwmuuUDRXPL1H+jNdmtD8E1QRcK1G3NUUHd+xYcqU3K1aV4Bx89H1TMeow0Oq/9WdedzDNbikg17xYsdMmL7XBXyvyu7brPI/IJQ9XOxjpizyYjawasQ2XXuW5zUqaAfO+ECgYEA+vRqwKIwt3fsRZOnvNq+Y/wtnJdz0P8MX4tZGLreMPuaTGsAFX5fPJTymz0BioCIyqU0ktznglO6sZNOgW2g2f46EWUCBToe9AjFEOG8cqHeJckS4UUefthg205WNP0rmoVeRIRbjfPFbB7k9nGvlXc1r6/GFaUv/o2sil/gFusCgYEA0TNu4fkj+ZZh16GuSSUodtVkEw7iSIgOiYpWeqoYfe9Vk0ae54bwIgcUqoaHhMUNuweO+3MVqS6CHhM+zTQcmvt3sajJyzXdc8dIRGJt6VpQ5og9L8z/a0fEasmBUMno3ZMeX5x7kD1T8jAuqZQQNGp6yYtdRD9WgsJExT8bs98CgYEAkbGUyIFhByL4aOxwVZQpNKMTV/YVpyBrbozYDSNwG7/2tKbqRZA4elN/BeFFI8O7puqCu0DEp0U0/iMnULz0xZpy2+ZoZeB4V/U/c62aWnLfJdC2xVH7gmjc0nWIVvskdXE4aU7uWFtOIpdNFkaqSXwMDxNdTPO6CW723N8MmkECgYAW6oZr9ImvTnzbTRe1ZX+gPNHgkJHTFixZfrDocPeL3ArIvkSr4gkuAQ6Pe3se3SMa6MIN41ZtGO4h80O+4MV9aKx85ptsSjM++oZ9DzcxB7ay+huRv+f+zXbDp90lh2id1P7PxGl4rG8kqYiDBPgddciLiVunHTURz8wOu1ICiwKBgQDWPZOsmZ5lUd9VpsO2NzdHtB2IzQKQG2A7qAH520/OW8Skfu8XkE/9UYF7/PsQv8F4t96h+KSfwXV1HLvp/2Xaq8tjVk8Q4QF4hRrLSKUIWaPtLiWkQ4HKreVF185pvAh7bi+1y7NijSXd8zspVutDzsiaN1HjW9gczbHj+KTUlg==
+1234567890
+168168168
+{"EncKeyID":254857,"AES_Key":"sZfETy8BaN4emEVbJDrXekaYtPUUMFEf","AES_IV":"SdPPzzZXFcLLw2u4","ExpireDate":"2023/12/23 16:57:52","Timestamp":"2023/12/22 16:57:52"}
+SendOTP
+{"AuthCode":"978900","ExpireMinutes":"5"}
+978900
+無法解析的 Timestamp：
+Timestamp 誤差過大：
+SendOTP
+{"EncData":"YH2kxZaUc1zu5UWSyk3+AEZTF63Y776OUPdMFgHWpftm7D+XNTZJl18jhKghmlXz","RtnCode":1,"RtnMsg":"訊息代碼：0001，成功"}
+回傳：{"RtnCode":1,"RtnMsg":"訊息代碼：0001，成功","DefaultPubCertID":1,"DefaultPubCert":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4pgu8gTfBSM1HA69jakqet6YXtyy6ChqrVuhfaYUYLoxogbcz7QGrAAB/eRc4Ft9rdoh2xC4BEqeOqYTmm4mR+EIF+d+SQXPH79DP8QoTiBvZFcfeckGBsOEFkk6W0LGqhXIKXg/pQ1wilfh1iWybBx7j5Teo3X7s6pTIf11GmL8BkjkQvdVeDX8s/bQBtKjRvLIUMROeuUEuWvq3rJP7o5E5n2tyw/IeT91Q7thoj691CQbJetZF0Nnj9pJgSw4u1EyvQDxbjRZkuh6PwRAy5Ik6sJ97ghdlrNAkFilYr8kPJoFdqf9bxNa9YpsjptahWNAGvPKViDNbyq8SuR42QIDAQAB"}
+168168168
+{"EncKeyID":254858,"AES_Key":"WmUtl8uO7ZZ0o7KadiYVkPa0dG2fLZFi","AES_IV":"nEcKFVqSwzvoKOKA","ExpireDate":"2023/12/23 16:58:03","Timestamp":"2023/12/22 16:58:03"}
+
+
+   無法列印例外狀況字串，因為 Exception.ToString() 失敗。
+回傳：{"RtnCode":1,"RtnMsg":"訊息代碼：0001，成功","DefaultPubCertID":1,"DefaultPubCert":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4pgu8gTfBSM1HA69jakqet6YXtyy6ChqrVuhfaYUYLoxogbcz7QGrAAB/eRc4Ft9rdoh2xC4BEqeOqYTmm4mR+EIF+d+SQXPH79DP8QoTiBvZFcfeckGBsOEFkk6W0LGqhXIKXg/pQ1wilfh1iWybBx7j5Teo3X7s6pTIf11GmL8BkjkQvdVeDX8s/bQBtKjRvLIUMROeuUEuWvq3rJP7o5E5n2tyw/IeT91Q7thoj691CQbJetZF0Nnj9pJgSw4u1EyvQDxbjRZkuh6PwRAy5Ik6sJ97ghdlrNAkFilYr8kPJoFdqf9bxNa9YpsjptahWNAGvPKViDNbyq8SuR42QIDAQAB"}
+168168168
+{"EncKeyID":254859,"AES_Key":"sFKzBXE7ERthO9TTNe8oQqY531uchPS3","AES_IV":"so4yuyR7XIrNO2zH","ExpireDate":"2023/12/23 16:58:14","Timestamp":"2023/12/22 16:58:14"}
+
+
+   無法列印例外狀況字串，因為 Exception.ToString() 失敗。
+Chart generated: C:\ProgramData\Jenkins\.jenkins\workspace\NewICPAPI\apichart\chart_2023-12-22_16-58-36.png
+Report generated: C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI\newloginapireport\report_2023-12-22_16-58-36.html
+
+C:\ProgramData\Jenkins\.jenkins\workspace\NewICPAPI>exit 0 
+Finished: SUCCESS

@@ -1,0 +1,31 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <ru.yandex.qatools.allure.jenkins.AllureReportBuildAction plugin="allure-jenkins-plugin@2.30.3">
+      <run class="build" reference="../../.."/>
+      <reportPath>allure-report</reportPath>
+    </ru.yandex.qatools.allure.jenkins.AllureReportBuildAction>
+  </actions>
+  <queueId>1577</queueId>
+  <timestamp>1676586471474</timestamp>
+  <startTime>1676586471487</startTime>
+  <result>SUCCESS</result>
+  <duration>14869</duration>
+  <charset>x-windows-950</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1</workspace>
+  <hudsonVersion>2.319.3</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

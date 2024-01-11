@@ -1,0 +1,39 @@
+¥Ñ¨Ï¥ÎªÌ [8mha:////4A1U7Qooju7bdClrTlY6u2ZYDAMIeKZGrEy/JEoBt3btAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9xJTEPACulnT/vwAAAA==[0madan ±Ò°Ê
+Running as SYSTEM
+«Ø¸m¤¤ ¤u§@°Ï C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI
+The recommended git tool is: NONE
+using credential 4d309da6-1441-4322-bb91-f245a8dec50f
+ > C:\Program Files\Git\bin\git.exe rev-parse --resolve-git-dir C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI\.git # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/Athena20230322/testicashapi.git # timeout=10
+ERROR: Error fetching remote repo 'origin'
+hudson.plugins.git.GitException: Failed to fetch from https://github.com/Athena20230322/testicashapi.git
+	at hudson.plugins.git.GitSCM.fetchFrom(GitSCM.java:1003)
+	at hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1244)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1308)
+	at hudson.scm.SCM.checkout(SCM.java:540)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1240)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:649)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:85)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:521)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Caused by: hudson.plugins.git.GitException: Command "C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/Athena20230322/testicashapi.git" returned status code 128:
+stdout: 
+stderr: fatal: bad config line 1 in file .git/config
+
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2675)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2605)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2601)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommand(CliGitAPIImpl.java:1969)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommand(CliGitAPIImpl.java:1981)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.setRemoteUrl(CliGitAPIImpl.java:1595)
+	at hudson.plugins.git.GitAPI.setRemoteUrl(GitAPI.java:161)
+	at hudson.plugins.git.GitSCM.fetchFrom(GitSCM.java:991)
+	... 11 more
+ERROR: Error fetching remote repo 'origin'
+Build did not succeed and the project is configured to only push after a successful build, so no pushing will occur.
+[Checks API] No suitable checks publisher found.
+Finished: FAILURE

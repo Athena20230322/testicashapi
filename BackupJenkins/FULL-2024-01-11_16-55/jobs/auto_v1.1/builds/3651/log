@@ -1,0 +1,39 @@
+由計時器啟動
+Running as SYSTEM
+建置中 工作區 C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+[auto_v1.1] $ cmd /c call C:\Windows\TEMP\jenkins12015312258034552138.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>C:
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>pytest -vs test_demo.py -s -q --alluredir target/allure-results 
+ERROR: usage: pytest [options] [file_or_dir] [file_or_dir] [...]
+pytest: error: unrecognized arguments: --alluredir target/allure-results
+  inifile: None
+  rootdir: C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>exit 4 
+Build step '執行 Windows 批次指令' marked build as failure
+[auto_v1.1] $ C:\allure-2.20.1\bin\allure.bat generate C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-results -c -o C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-report
+
+ERROR: JAVA_HOME is set to an invalid directory: C:\Program Files\Java\jre1.8.0_202
+
+Please set the JAVA_HOME variable in your environment to match the
+location of your Java installation.
+ERROR: Build step failed with exception
+ru.yandex.qatools.allure.jenkins.exception.AllurePluginException: Can not generate Allure Report, exit code: 1
+	at ru.yandex.qatools.allure.jenkins.AllureReportPublisher.generateReport(AllureReportPublisher.java:314)
+	at ru.yandex.qatools.allure.jenkins.AllureReportPublisher.perform(AllureReportPublisher.java:231)
+	at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:123)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:80)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:767)
+	at hudson.model.Build$BuildExecution.post2(Build.java:179)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:711)
+	at hudson.model.Run.execute(Run.java:1925)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Build step 'Allure Report' marked build as failure
+Finished: FAILURE

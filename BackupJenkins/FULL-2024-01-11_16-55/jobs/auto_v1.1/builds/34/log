@@ -1,0 +1,20 @@
+由使用者 unknown or anonymous 啟動
+Running as SYSTEM
+建置中 工作區 C:\pytest
+[pytest] $ cmd /c call C:\Windows\TEMP\jenkins17961156649824807289.bat
+
+C:\pytest>C:
+
+C:\pytest>cd C:\pytest 
+
+C:\pytest>python test.py --alluredir .\allure_report 
+Hello world112
+
+C:\pytest>exit 0 
+[pytest] $ C:\allures\allure-2.20.1\bin\allure.bat generate -c -o C:\pytest\allure-report\htmlg
+allure-results does not exist
+Report successfully generated to C:\pytest\allure-report\htmlg
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: SUCCESS

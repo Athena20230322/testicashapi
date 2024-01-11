@@ -1,0 +1,40 @@
+¥Ñ¨Ï¥ÎªÌ unknown or anonymous ±Ò°Ê
+Running as SYSTEM
+«Ø¸m¤¤ ¤u§@°Ï C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI
+The recommended git tool is: NONE
+using credential 4d309da6-1441-4322-bb91-f245a8dec50f
+Wiping out workspace first.
+Cloning the remote Git repository
+Cloning repository https://github.com/Athena20230322/testicashapi.git
+ > C:\Program Files\Git\cmd\git.exe init C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI # timeout=10
+Fetching upstream changes from https://github.com/Athena20230322/testicashapi.git
+ > C:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > git --version # 'git version 2.39.0.windows.2'
+using GIT_ASKPASS to set credentials 
+ > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress -- https://github.com/Athena20230322/testicashapi.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/Athena20230322/testicashapi.git # timeout=10
+ > C:\Program Files\Git\cmd\git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision 718cb213057dad7d136fba938e718b6b71256cfd (refs/remotes/origin/main)
+ > C:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\cmd\git.exe checkout -f 718cb213057dad7d136fba938e718b6b71256cfd # timeout=10
+Commit message: "updatetestapi20230706_1528"
+ > C:\Program Files\Git\cmd\git.exe rev-list --no-walk 718cb213057dad7d136fba938e718b6b71256cfd # timeout=10
+[Checks API] No suitable checks publisher found.
+[ICPAPI] $ cmd /c call C:\Windows\TEMP\jenkins5335577465250538416.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI>cmd /c "C:\Python\python.exe C:\testicashapi\run_testcase.py" 
+å›žå‚³ï¼š{"RtnCode":1,"RtnMsg":"è¨Šæ¯ä»£ç¢¼ï¼š0001ï¼ŒæˆåŠŸ","DefaultPubCertID":1,"DefaultPubCert":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4pgu8gTfBSM1HA69jakqet6YXtyy6ChqrVuhfaYUYLoxogbcz7QGrAAB/eRc4Ft9rdoh2xC4BEqeOqYTmm4mR+EIF+d+SQXPH79DP8QoTiBvZFcfeckGBsOEFkk6W0LGqhXIKXg/pQ1wilfh1iWybBx7j5Teo3X7s6pTIf11GmL8BkjkQvdVeDX8s/bQBtKjRvLIUMROeuUEuWvq3rJP7o5E5n2tyw/IeT91Q7thoj691CQbJetZF0Nnj9pJgSw4u1EyvQDxbjRZkuh6PwRAy5Ik6sJ97ghdlrNAkFilYr8kPJoFdqf9bxNa9YpsjptahWNAGvPKViDNbyq8SuR42QIDAQAB"}
+{"EncKeyID":230698,"AES_Key":"YZWExNQKQ2RctpKr9JTBxUGEPA7OlbDQ","AES_IV":"uQdheoDagW4sRqTD","ExpireDate":"2023/07/07 15:48:50","Timestamp":"2023/07/06 15:48:50"}
+
+
+1
+Chart generated: C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI\apichart\chart_2023-07-06_15-49-42.png
+Report generated: C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI\apireport\report_2023-07-06_15-49-42.html
+
+C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI>exit 0 
+The recommended git tool is: NONE
+using credential 4d309da6-1441-4322-bb91-f245a8dec50f
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

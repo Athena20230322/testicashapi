@@ -1,0 +1,49 @@
+由使用者 unknown or anonymous 啟動
+Running as SYSTEM
+建置中 工作區 C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+[auto_v1.1] $ cmd /c call C:\Windows\TEMP\jenkins2059471111718838338.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>C:
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>cd C:\pytest 
+
+C:\pytest>pytest test_demo.py -s -q --alluredir=./allure-report/ 
+a 的數值為 2
+b 的數值為 4
+.
+1 passed in 0.01s
+
+C:\pytest>exit 0 
+[auto_v1.1] $ sh -xe C:\Windows\TEMP\jenkins7792212557846922058.sh
+The system cannot find the file specified
+FATAL: 指令執行失敗
+java.io.IOException: CreateProcess error=2, 系統找不到指定的檔案。
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:487)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:154)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+Caused: java.io.IOException: Cannot run program "sh" (in directory "C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1"): CreateProcess error=2, 系統找不到指定的檔案。
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at hudson.Proc$LocalProc.<init>(Proc.java:252)
+	at hudson.Proc$LocalProc.<init>(Proc.java:221)
+	at hudson.Launcher$LocalLauncher.launch(Launcher.java:995)
+	at hudson.Launcher$ProcStarter.start(Launcher.java:507)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:143)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:91)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:806)
+	at hudson.model.Build$BuildExecution.build(Build.java:198)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:514)
+	at hudson.model.Run.execute(Run.java:1888)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:99)
+	at hudson.model.Executor.run(Executor.java:432)
+Build step '執行 Shell' marked build as failure
+[auto_v1.1] $ C:\allures\allure-2.20.1\bin\allure.bat generate C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\allure-report\html -c -o C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\allure-report\htmlg
+Report successfully generated to C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\allure-report\htmlg
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: FAILURE

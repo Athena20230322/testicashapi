@@ -1,0 +1,15 @@
+¥Ñ¨Ï¥ÎªÌ unknown or anonymous ±Ò°Ê
+Running as SYSTEM
+«Ø¸m¤¤ ¤u§@°Ï C:\ProgramData\Jenkins\.jenkins\workspace\NEWICPNegative
+[NEWICPNegative] $ cmd /c call C:\Windows\TEMP\jenkins10399748795268309441.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\NEWICPNegative>cmd /c "C:\Python\python.exe C:\testicashapi\run_nagative.py" 
+Traceback (most recent call last):
+  File "C:\testicashapi\run_nagative.py", line 23, in <module>
+    scripts = [os.path.join(scripts_dir, f) for f in os.listdir(scripts_dir) if f.endswith('.py')]
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] ç³»çµ±æ‰¾ä¸åˆ°æŒ‡å®šçš„è·¯å¾‘ã€‚: 'C:\\testicashapi\\Negative Test_Case\\ICPAPI'
+
+C:\ProgramData\Jenkins\.jenkins\workspace\NEWICPNegative>exit 1 
+Build step '°õ¦æ Windows §å¦¸«ü¥O' marked build as failure
+Finished: FAILURE

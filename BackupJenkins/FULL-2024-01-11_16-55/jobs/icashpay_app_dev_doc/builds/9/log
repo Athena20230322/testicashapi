@@ -1,0 +1,37 @@
+由使用者 unknown or anonymous 啟動
+Running as SYSTEM
+建置中 工作區 C:\ProgramData\Jenkins\.jenkins\workspace\icashpay_app_dev_doc
+The recommended git tool is: NONE
+using credential ee570c11-3160-4e94-92f3-524df6023213
+ > C:\Program Files\Git\cmd\git.exe rev-parse --resolve-git-dir C:\ProgramData\Jenkins\.jenkins\workspace\icashpay_app_dev_doc\.git # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\cmd\git.exe config remote.origin.url http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc.git # timeout=10
+Fetching upstream changes from http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc.git
+ > C:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > git --version # 'git version 2.39.0.windows.2'
+using GIT_ASKPASS to set credentials ICPAPI_DOC_GitLAB
+ > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress -- http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision fa3e6f3f97e75d053ee0b69cad451c513bd438a4 (refs/remotes/origin/master)
+ > C:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\cmd\git.exe checkout -f fa3e6f3f97e75d053ee0b69cad451c513bd438a4 # timeout=10
+Commit message: "Update README.md"
+ > C:\Program Files\Git\cmd\git.exe rev-list --no-walk c08639a6ca5882e8e503dae598755fe9c80f65dd # timeout=10
+[Checks API] No suitable checks publisher found.
+No emails were triggered.
+[icashpay_app_dev_doc] $ cmd /c call C:\Windows\TEMP\jenkins15242052467307081229.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\icashpay_app_dev_doc>cd C:/icashpay_app_dev_doc 
+
+C:\icashpay_app_dev_doc>git pull 
+From http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc
+   c08639a..fa3e6f3  master     -> origin/master
+Updating c08639a..fa3e6f3
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+C:\icashpay_app_dev_doc>exit 0 
+[Checks API] No suitable checks publisher found.
+No emails were triggered.
+Finished: SUCCESS

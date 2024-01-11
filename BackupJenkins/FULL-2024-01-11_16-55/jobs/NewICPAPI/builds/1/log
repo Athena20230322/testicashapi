@@ -1,0 +1,11 @@
+由使用者 unknown or anonymous 啟動
+Running as SYSTEM
+建置中 工作區 C:\ProgramData\Jenkins\.jenkins\workspace\NewICPAPI
+[NewICPAPI] $ cmd /c call C:\Windows\TEMP\jenkins17602605875309250109.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\NewICPAPI>cmd /c "C:\Python\python.exe C:\testicashapi\new_newicplogin.py" 
+C:\Python\python.exe: can't open file 'C:\\testicashapi\\new_newicplogin.py': [Errno 2] No such file or directory
+
+C:\ProgramData\Jenkins\.jenkins\workspace\NewICPAPI>exit 2 
+Build step '執行 Windows 批次指令' marked build as failure
+Finished: FAILURE

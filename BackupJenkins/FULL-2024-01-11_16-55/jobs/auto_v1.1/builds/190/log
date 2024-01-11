@@ -1,0 +1,30 @@
+¥Ñ¨Ï¥ÎªÌ [8mha:////4A1U7Qooju7bdClrTlY6u2ZYDAMIeKZGrEy/JEoBt3btAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9xJTEPACulnT/vwAAAA==[0madan ±Ò°Ê
+Running as SYSTEM
+«Ø¸m¤¤ ¤u§@°Ï C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+[auto_v1.1] $ cmd /c call C:\Windows\TEMP\jenkins3462945916161978698.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>C:
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>pytest -vs test_demo.py   && test.py -s -q --alluredir target/allure-results 
+============================= test session starts =============================
+platform win32 -- Python 3.11.1, pytest-7.2.0, pluggy-1.0.0 -- C:\Python\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.1', 'Platform': 'Windows-10-10.0.19045-SP0', 'Packages': {'pytest': '7.2.0', 'pluggy': '1.0.0'}, 'Plugins': {'allure-pytest': '2.12.0', 'html': '3.2.0', 'json-report': '1.5.0', 'metadata': '2.0.4', 'testconfig': '0.2.0'}, 'CI': 'true', 'BUILD_NUMBER': '190', 'BUILD_ID': '190', 'BUILD_URL': 'http://127.0.0.1:8080/job/auto_v1.1/190/', 'NODE_NAME': 'built-in', 'JOB_NAME': 'auto_v1.1', 'BUILD_TAG': 'jenkins-auto_v1.1-190', 'EXECUTOR_NUMBER': '1', 'JENKINS_URL': 'http://127.0.0.1:8080/', 'JAVA_HOME': 'C:\\Program Files\\Java\\jre1.8.0_202', 'WORKSPACE': 'C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\auto_v1.1'}
+rootdir: C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+plugins: allure-pytest-2.12.0, html-3.2.0, json-report-1.5.0, metadata-2.0.4, testconfig-0.2.0
+collecting ... collected 1 item
+
+test_demo.py::test_export_report a ªº¼Æ­È¬° 2
+b ªº¼Æ­È¬° 4
+PASSED
+
+============================== 1 passed in 0.02s ==============================
+Hello world112
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>exit 0 
+[auto_v1.1] $ C:\allure-2.20.1\bin\allure.bat generate C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-results -c -o C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-report
+Report successfully generated to C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: SUCCESS

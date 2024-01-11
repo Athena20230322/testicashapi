@@ -1,0 +1,70 @@
+由使用者 unknown or anonymous 啟動
+Running as SYSTEM
+建置中 工作區 C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+[auto_v1.1] $ cmd /c call C:\Windows\TEMP\jenkins6227418373306102873.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>C:
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>pytest -vs test_demo.py -s -q --alluredir target/allure-results 
+============================= test session starts =============================
+platform win32 -- Python 3.11.1, pytest-7.2.0, pluggy-1.0.0
+rootdir: C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+plugins: allure-pytest-2.12.0, html-3.2.0, json-report-1.5.0, metadata-2.0.4, testconfig-0.2.0
+collected 1 item
+
+test_demo.py a 的數值為 2
+b 的數值為 4
+.
+
+============================== 1 passed in 0.02s ==============================
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>exit 0 
+[auto_v1.1] $ cmd /c call C:\Windows\TEMP\jenkins6424451898283083693.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>C:
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>pytest -vs test_demo1.py -s -q --alluredir target/allure-results 
+============================= test session starts =============================
+platform win32 -- Python 3.11.1, pytest-7.2.0, pluggy-1.0.0
+rootdir: C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+plugins: allure-pytest-2.12.0, html-3.2.0, json-report-1.5.0, metadata-2.0.4, testconfig-0.2.0
+collected 0 items / 1 error
+
+=================================== ERRORS ====================================
+_______________________ ERROR collecting test_demo1.py ________________________
+C:\Python\Lib\site-packages\_pytest\python.py:618: in _importtestmodule
+    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
+C:\Python\Lib\site-packages\_pytest\pathlib.py:533: in import_path
+    importlib.import_module(module_name)
+C:\Python\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+<frozen importlib._bootstrap>:1206: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1178: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1149: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:690: in _load_unlocked
+    ???
+C:\Python\Lib\site-packages\_pytest\assertion\rewrite.py:159: in exec_module
+    source_stat, co = _rewrite_test(fn, self.config)
+C:\Python\Lib\site-packages\_pytest\assertion\rewrite.py:337: in _rewrite_test
+    tree = ast.parse(source, filename=strfn)
+C:\Python\Lib\ast.py:50: in parse
+    return compile(source, filename, mode, flags,
+E     File "C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\test_demo1.py", line 11
+E       print(f"b 的數值為 {b")
+E                          ^
+E   SyntaxError: f-string: expecting '}'
+=========================== short test summary info ===========================
+ERROR test_demo1.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+============================== 1 error in 0.23s ===============================
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>exit 0 
+[auto_v1.1] $ C:\allure-2.20.1\bin\allure.bat generate C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-results -c -o C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-report
+Report successfully generated to C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: SUCCESS

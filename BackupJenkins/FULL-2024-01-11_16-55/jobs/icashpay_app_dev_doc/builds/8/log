@@ -1,0 +1,93 @@
+由使用者 unknown or anonymous 啟動
+Running as SYSTEM
+建置中 工作區 C:\ProgramData\Jenkins\.jenkins\workspace\icashpay_app_dev_doc
+The recommended git tool is: NONE
+No credentials specified
+ > C:\Program Files\Git\cmd\git.exe rev-parse --resolve-git-dir C:\ProgramData\Jenkins\.jenkins\workspace\icashpay_app_dev_doc\.git # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\cmd\git.exe config remote.origin.url http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc.git # timeout=10
+Fetching upstream changes from http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc.git
+ > C:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > git --version # 'git version 2.39.0.windows.2'
+ > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress -- http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision c08639a6ca5882e8e503dae598755fe9c80f65dd (refs/remotes/origin/master)
+ > C:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\cmd\git.exe checkout -f c08639a6ca5882e8e503dae598755fe9c80f65dd # timeout=10
+Commit message: "Sue_APP改版註冊登入API"
+ > C:\Program Files\Git\cmd\git.exe rev-list --no-walk 54e1e35c0b72aa6584c6cc8377c16b3e5b40e359 # timeout=10
+[Checks API] No suitable checks publisher found.
+No emails were triggered.
+[icashpay_app_dev_doc] $ cmd /c call C:\Windows\TEMP\jenkins11902216979604262836.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\icashpay_app_dev_doc>cd C:/icashpay_app_dev_doc 
+
+C:\icashpay_app_dev_doc>git pull 
+From http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc
+   54e1e35..c08639a  master     -> origin/master
+Updating 54e1e35..c08639a
+Fast-forward
+ ...267\263\350\275\211\351\240\201\351\235\242.md" | 29 ++++++++
+ ...234\203\345\223\241\350\263\207\346\226\231.md" | 84 ++++++++++++++++++++++
+ ...231\273\345\205\245\345\270\263\350\231\237.md" | 32 +++++++++
+ ...256\211\345\205\250\345\257\206\347\242\274.md" | 33 +++++++++
+ ...266\201\345\256\232\350\243\235\347\275\256.md" | 29 ++++++++
+ ...231\273\345\205\245\345\257\206\347\242\274.md" | 32 +++++++++
+ ...256\232\346\252\224\350\263\207\346\226\231.md" | 31 ++++++++
+ ...220\206\344\272\272\350\263\207\346\226\231.md" | 36 ++++++++++
+ ...\274\351\200\201OTP\351\251\227\350\255\211.md" | 34 +++++++++
+ ...\242\346\240\270\346\211\213\346\251\237OTP.md" | 35 +++++++++
+ ...252\242\346\240\270\345\270\263\350\231\237.md" | 32 +++++++++
+ ...231\273\345\205\245\345\257\206\347\242\274.md" | 32 +++++++++
+ ...256\211\345\205\250\345\257\206\347\242\274.md" | 33 +++++++++
+ ...266\201\345\256\232\350\243\235\347\275\256.md" | 29 ++++++++
+ ...277\230\350\250\230\345\270\263\350\231\237.md" | 31 ++++++++
+ ...277\230\350\250\230\345\257\206\347\242\274.md" | 32 +++++++++
+ ...275\211\347\202\272\346\226\260\347\211\210.md" | 30 ++++++++
+ .../003_API/ML210-\347\231\273\345\205\245.md"     | 30 ++++++++
+ ...256\211\345\205\250\345\257\206\347\242\274.md" | 30 ++++++++
+ ...0\246\347\202\272OP\346\234\203\345\223\241.md" | 28 ++++++++
+ ...231\273\345\205\245\351\200\243\347\265\220.md" | 28 ++++++++
+ ...0\273\345\206\212OP\346\234\203\345\223\241.md" | 31 ++++++++
+ ...232\253\345\255\230\346\234\203\345\223\241.md" | 31 ++++++++
+ ...251\227\350\255\211\350\263\207\346\226\231.md" | 37 ++++++++++
+ ...251\227\350\255\211\350\263\207\346\226\231.md" | 38 ++++++++++
+ ...251\227\350\255\211\346\265\201\347\250\213.md" | 30 ++++++++
+ ...256\232\344\273\243\347\220\206\344\272\272.md" | 43 +++++++++++
+ ...255\243\345\274\217\346\234\203\345\223\241.md" | 29 ++++++++
+ ...234\252\346\210\220\345\271\264\344\272\272.md" | 30 ++++++++
+ 29 files changed, 979 insertions(+)
+ create mode 100644 "icashdocs/docs/003_API/MD201-\345\217\226\345\276\227\350\267\263\350\275\211\351\240\201\351\235\242.md"
+ create mode 100644 "icashdocs/docs/003_API/MD202-\346\237\245\350\251\242\346\234\203\345\223\241\350\263\207\346\226\231.md"
+ create mode 100644 "icashdocs/docs/003_API/MD203-\350\250\255\345\256\232\347\231\273\345\205\245\345\270\263\350\231\237.md"
+ create mode 100644 "icashdocs/docs/003_API/MD204-\350\250\255\345\256\232\345\256\211\345\205\250\345\257\206\347\242\274.md"
+ create mode 100644 "icashdocs/docs/003_API/MD205-\351\207\215\346\226\260\347\266\201\345\256\232\350\243\235\347\275\256.md"
+ create mode 100644 "icashdocs/docs/003_API/MD206-\350\250\255\345\256\232\347\231\273\345\205\245\345\257\206\347\242\274.md"
+ create mode 100644 "icashdocs/docs/003_API/MD207-\345\217\226\345\276\227\350\250\255\345\256\232\346\252\224\350\263\207\346\226\231.md"
+ create mode 100644 "icashdocs/docs/003_API/MD208-\345\217\226\345\276\227\346\263\225\345\256\232\344\273\243\347\220\206\344\272\272\350\263\207\346\226\231.md"
+ create mode 100644 "icashdocs/docs/003_API/ML201-\347\231\274\351\200\201OTP\351\251\227\350\255\211.md"
+ create mode 100644 "icashdocs/docs/003_API/ML202-\346\252\242\346\240\270\346\211\213\346\251\237OTP.md"
+ create mode 100644 "icashdocs/docs/003_API/ML203-\346\252\242\346\240\270\345\270\263\350\231\237.md"
+ create mode 100644 "icashdocs/docs/003_API/ML204-\346\252\242\346\240\270\347\231\273\345\205\245\345\257\206\347\242\274.md"
+ create mode 100644 "icashdocs/docs/003_API/ML205-\346\252\242\346\240\270\345\256\211\345\205\250\345\257\206\347\242\274.md"
+ create mode 100644 "icashdocs/docs/003_API/ML206-\346\252\242\346\240\270\347\266\201\345\256\232\350\243\235\347\275\256.md"
+ create mode 100644 "icashdocs/docs/003_API/ML207-\346\252\242\346\240\270\345\277\230\350\250\230\345\270\263\350\231\237.md"
+ create mode 100644 "icashdocs/docs/003_API/ML208-\346\252\242\346\240\270\345\277\230\350\250\230\345\257\206\347\242\274.md"
+ create mode 100644 "icashdocs/docs/003_API/ML209-\350\210\212\347\211\210\346\234\203\345\223\241\350\275\211\347\202\272\346\226\260\347\211\210.md"
+ create mode 100644 "icashdocs/docs/003_API/ML210-\347\231\273\345\205\245.md"
+ create mode 100644 "icashdocs/docs/003_API/ML211-\346\252\242\346\240\270\345\277\230\350\250\230\345\205\255\344\275\215\345\256\211\345\205\250\345\257\206\347\242\274.md"
+ create mode 100644 "icashdocs/docs/003_API/MOP201-\346\252\242\346\237\245\350\251\262\346\234\203\345\223\241\346\230\257\345\220\246\347\202\272OP\346\234\203\345\223\241.md"
+ create mode 100644 "icashdocs/docs/003_API/MOP202-\345\217\226\345\276\227OP\347\231\273\345\205\245\351\200\243\347\265\220.md"
+ create mode 100644 "icashdocs/docs/003_API/MOP203-\350\250\273\345\206\212OP\346\234\203\345\223\241.md"
+ create mode 100644 "icashdocs/docs/003_API/MR201-\346\226\260\345\273\272\346\232\253\345\255\230\346\234\203\345\223\241.md"
+ create mode 100644 "icashdocs/docs/003_API/MR202-\350\250\255\345\256\232\346\234\254\345\234\213\344\272\272\350\272\253\345\210\206\351\251\227\350\255\211\350\263\207\346\226\231.md"
+ create mode 100644 "icashdocs/docs/003_API/MR203-\350\250\255\345\256\232\345\244\226\345\234\213\344\272\272\350\272\253\345\210\206\351\251\227\350\255\211\350\263\207\346\226\231.md"
+ create mode 100644 "icashdocs/docs/003_API/MR204-\345\237\267\350\241\214\350\272\253\345\210\206\351\251\227\350\255\211\346\265\201\347\250\213.md"
+ create mode 100644 "icashdocs/docs/003_API/MR205-\350\250\255\345\256\232\346\263\225\345\256\232\344\273\243\347\220\206\344\272\272.md"
+ create mode 100644 "icashdocs/docs/003_API/MR206-\345\273\272\347\253\213\346\255\243\345\274\217\346\234\203\345\223\241.md"
+ create mode 100644 "icashdocs/docs/003_API/MR207-\346\263\225\344\273\243\345\257\251\346\240\270\346\234\252\346\210\220\345\271\264\344\272\272.md"
+
+C:\icashpay_app_dev_doc>exit 0 
+[Checks API] No suitable checks publisher found.
+No emails were triggered.
+Finished: SUCCESS

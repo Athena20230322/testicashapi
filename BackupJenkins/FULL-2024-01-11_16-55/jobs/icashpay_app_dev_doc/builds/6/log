@@ -1,0 +1,37 @@
+由使用者 unknown or anonymous 啟動
+Running as SYSTEM
+建置中 工作區 C:\ProgramData\Jenkins\.jenkins\workspace\icashpay_app_dev_doc
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc.git
+ > C:\Program Files\Git\bin\git.exe init C:\ProgramData\Jenkins\.jenkins\workspace\icashpay_app_dev_doc # timeout=10
+Fetching upstream changes from http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > git --version # 'git version 2.39.0.windows.2'
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress -- http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc.git # timeout=10
+ > C:\Program Files\Git\bin\git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 697f1776feaa3fd2e128dd71234f76084d6a83d3 (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f 697f1776feaa3fd2e128dd71234f76084d6a83d3 # timeout=10
+Commit message: "Update README.md"
+ > C:\Program Files\Git\bin\git.exe rev-list --no-walk b56746a2f1f4b3a2d6b071499954087a2dfedf48 # timeout=10
+[Checks API] No suitable checks publisher found.
+No emails were triggered.
+[icashpay_app_dev_doc] $ cmd /c call C:\Windows\TEMP\jenkins17794436174852158604.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\icashpay_app_dev_doc>cd C:/icashpay_app_dev_doc 
+
+C:\icashpay_app_dev_doc>git pull 
+From http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc
+   b56746a..697f177  master     -> origin/master
+Updating b56746a..697f177
+Fast-forward
+
+C:\icashpay_app_dev_doc>exit 0 
+[Checks API] No suitable checks publisher found.
+No emails were triggered.
+Finished: SUCCESS

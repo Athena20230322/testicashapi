@@ -1,0 +1,26 @@
+由使用者 unknown or anonymous 啟動
+Running as SYSTEM
+建置中 工作區 C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+[auto_v1.1] $ cmd /c call C:\Windows\TEMP\jenkins15024342825875702381.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>C:
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>cd C:\pytest 
+
+C:\pytest>pytest .\test.py --alluredir .\allure-report\ 
+============================= test session starts =============================
+platform win32 -- Python 3.11.1, pytest-7.2.0, pluggy-1.0.0
+rootdir: C:\pytest
+plugins: allure-pytest-2.12.0, html-3.2.0, json-report-1.5.0, metadata-2.0.4, testconfig-0.2.0
+collected 0 items
+
+============================ no tests ran in 0.01s ============================
+
+C:\pytest>exit 5 
+Build step '執行 Windows 批次指令' marked build as failure
+[auto_v1.1] $ C:\allures\allure-2.20.1\bin\allure.bat generate C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\allure-report\html -c -o C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\allure-report\htmlg
+Report successfully generated to C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\allure-report\htmlg
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: FAILURE

@@ -1,0 +1,69 @@
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+由計時器啟動
+Running as SYSTEM
+建置中 工作區 C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.0
+[auto_v1.0] $ cmd /c call C:\Windows\TEMP\jenkins18002121903381363494.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.0>C:
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.0>cd C:\pytest 
+
+C:\pytest>python test.py --alluredir .\allure_report 
+Hello world112
+
+C:\pytest>exit 0 
+ERROR: Step ‘Allure Report’ aborted due to exception: 
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.zerror(ZipFile.java:1597)
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1488)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1495)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1299)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1262)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:733)
+	at java.base/java.util.zip.ZipFile$CleanableResource.get(ZipFile.java:842)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:248)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:177)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:148)
+	at ru.yandex.qatools.allure.jenkins.utils.FilePathUtils.isHistoryNotEmpty(FilePathUtils.java:79)
+	at ru.yandex.qatools.allure.jenkins.utils.FilePathUtils.getPreviousReportWithHistory(FilePathUtils.java:70)
+	at ru.yandex.qatools.allure.jenkins.AllureReportPublisher.addHistory(AllureReportPublisher.java:420)
+	at ru.yandex.qatools.allure.jenkins.AllureReportPublisher.prepareResults(AllureReportPublisher.java:389)
+	at ru.yandex.qatools.allure.jenkins.AllureReportPublisher.perform(AllureReportPublisher.java:230)
+	at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:123)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:80)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:767)
+	at hudson.model.Build$BuildExecution.post2(Build.java:179)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:711)
+	at hudson.model.Run.execute(Run.java:1925)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Finished: FAILURE

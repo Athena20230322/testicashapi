@@ -1,0 +1,23 @@
+¥Ñ¨Ï¥ÎªÌ [8mha:////4A1U7Qooju7bdClrTlY6u2ZYDAMIeKZGrEy/JEoBt3btAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9xJTEPACulnT/vwAAAA==[0madan ±Ò°Ê
+Running as SYSTEM
+«Ø¸m¤¤ ¤u§@°Ï C:\pytest
+[pytest] $ cmd /c call C:\Windows\TEMP\jenkins12640859916749221781.bat
+
+C:\pytest>C:
+
+C:\pytest>pytest -s -v --alluredit target/allure-results 
+ERROR: usage: pytest [options] [file_or_dir] [file_or_dir] [...]
+pytest: error: unrecognized arguments: --alluredit
+  inifile: None
+  rootdir: C:\pytest
+
+
+C:\pytest>exit 4 
+Build step '°õ¦æ Windows §å¦¸«ü¥O' marked build as failure
+[pytest] $ C:\allure-2.20.1\bin\allure.bat generate -c -o C:\pytest\target\allure-report
+allure-results does not exist
+Report successfully generated to C:\pytest\target\allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: FAILURE

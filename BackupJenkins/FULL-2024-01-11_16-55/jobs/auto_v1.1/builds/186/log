@@ -1,0 +1,30 @@
+由使用者 unknown or anonymous 啟動
+Running as SYSTEM
+建置中 工作區 C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+[auto_v1.1] $ cmd /c call C:\Windows\TEMP\jenkins9841364343022570456.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>C:
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>pytest -vs test_demo.py   & test.py -s -q --alluredir target/allure-results 
+============================= test session starts =============================
+platform win32 -- Python 3.11.1, pytest-7.2.0, pluggy-1.0.0 -- C:\Python\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.1', 'Platform': 'Windows-10-10.0.19045-SP0', 'Packages': {'pytest': '7.2.0', 'pluggy': '1.0.0'}, 'Plugins': {'allure-pytest': '2.12.0', 'html': '3.2.0', 'json-report': '1.5.0', 'metadata': '2.0.4', 'testconfig': '0.2.0'}, 'CI': 'true', 'BUILD_NUMBER': '186', 'BUILD_ID': '186', 'BUILD_URL': 'http://127.0.0.1:8080/job/auto_v1.1/186/', 'NODE_NAME': 'built-in', 'JOB_NAME': 'auto_v1.1', 'BUILD_TAG': 'jenkins-auto_v1.1-186', 'EXECUTOR_NUMBER': '0', 'JENKINS_URL': 'http://127.0.0.1:8080/', 'JAVA_HOME': 'C:\\Program Files\\Java\\jre1.8.0_202', 'WORKSPACE': 'C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\auto_v1.1'}
+rootdir: C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+plugins: allure-pytest-2.12.0, html-3.2.0, json-report-1.5.0, metadata-2.0.4, testconfig-0.2.0
+collecting ... collected 1 item
+
+test_demo.py::test_export_report a 的數值為 2
+b 的數值為 4
+PASSED
+
+============================== 1 passed in 0.02s ==============================
+Hello world112
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>exit 0 
+[auto_v1.1] $ C:\allure-2.20.1\bin\allure.bat generate C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-results -c -o C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-report
+Report successfully generated to C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: SUCCESS

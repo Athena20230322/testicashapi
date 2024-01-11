@@ -1,0 +1,42 @@
+由計時器啟動
+Running as SYSTEM
+建置中 工作區 C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+[auto_v1.1] $ cmd /c call C:\Windows\TEMP\jenkins16384756404164952782.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>C:
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>pytest -vs test1/test.py -s -q --alluredir target/allure-results 
+============================= test session starts =============================
+platform win32 -- Python 3.11.1, pytest-7.2.0, pluggy-1.0.0
+rootdir: C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+plugins: allure-pytest-2.12.0, html-3.2.0, json-report-1.5.0, metadata-2.0.4, testconfig-0.2.0
+Hello world112
+collected 0 items
+
+============================ no tests ran in 0.02s ============================
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>exit 0 
+FATAL: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.Arrays.copyOfRange(Arrays.java:4030)
+	at java.base/java.lang.StringUTF16.newString(StringUTF16.java:1025)
+	at java.base/java.lang.String.substring(String.java:1847)
+	at org.jvnet.winp.WinProcess.parseCmdLineAndEnvVars(WinProcess.java:177)
+	at org.jvnet.winp.WinProcess.getEnvironmentVariables(WinProcess.java:146)
+	at hudson.util.ProcessTree$WindowsOSProcess.getEnvironmentVariables2(ProcessTree.java:643)
+	at hudson.util.ProcessTree$WindowsOSProcess.hasMatchingEnvVars2(ProcessTree.java:655)
+	at hudson.util.ProcessTree$WindowsOSProcess.access$700(ProcessTree.java:544)
+	at hudson.util.ProcessTree$Windows.hasMatchingEnvVars(ProcessTree.java:732)
+	at hudson.util.ProcessTree$Windows.killAll(ProcessTree.java:707)
+	at hudson.Launcher$LocalLauncher.kill(Launcher.java:1015)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1888)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:99)
+	at hudson.model.Executor.run(Executor.java:432)
+[auto_v1.1] $ C:\allure-2.20.1\bin\allure.bat generate C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-results -c -o C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-report
+Report successfully generated to C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: FAILURE

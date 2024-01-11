@@ -1,0 +1,838 @@
+由使用者 unknown or anonymous 啟動
+Running as SYSTEM
+建置中 工作區 C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+[auto_v1.1] $ cmd /c call C:\Windows\TEMP\jenkins16038854051502467602.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>C:
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>python -vs test_demo.py   & test.py -s -q --alluredir target/allure-results 
+import _frozen_importlib # frozen
+import _imp # builtin
+import '_thread' # <class '_frozen_importlib.BuiltinImporter'>
+import '_warnings' # <class '_frozen_importlib.BuiltinImporter'>
+import '_weakref' # <class '_frozen_importlib.BuiltinImporter'>
+import 'winreg' # <class '_frozen_importlib.BuiltinImporter'>
+import '_io' # <class '_frozen_importlib.BuiltinImporter'>
+import 'marshal' # <class '_frozen_importlib.BuiltinImporter'>
+import 'nt' # <class '_frozen_importlib.BuiltinImporter'>
+import '_frozen_importlib_external' # <class '_frozen_importlib.FrozenImporter'>
+# installing zipimport hook
+import 'time' # <class '_frozen_importlib.BuiltinImporter'>
+import 'zipimport' # <class '_frozen_importlib.FrozenImporter'>
+# installed zipimport hook
+# C:\Python\Lib\encodings\__pycache__\__init__.cpython-311.pyc matches C:\Python\Lib\encodings\__init__.py
+# code object from 'C:\\Python\\Lib\\encodings\\__pycache__\\__init__.cpython-311.pyc'
+import '_codecs' # <class '_frozen_importlib.BuiltinImporter'>
+import 'codecs' # <class '_frozen_importlib.FrozenImporter'>
+# C:\Python\Lib\encodings\__pycache__\aliases.cpython-311.pyc matches C:\Python\Lib\encodings\aliases.py
+# code object from 'C:\\Python\\Lib\\encodings\\__pycache__\\aliases.cpython-311.pyc'
+import 'encodings.aliases' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB012210>
+import 'encodings' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB00BC10>
+# C:\Python\Lib\encodings\__pycache__\utf_8.cpython-311.pyc matches C:\Python\Lib\encodings\utf_8.py
+# code object from 'C:\\Python\\Lib\\encodings\\__pycache__\\utf_8.cpython-311.pyc'
+import 'encodings.utf_8' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB035E90>
+# C:\Python\Lib\encodings\__pycache__\cp950.cpython-311.pyc matches C:\Python\Lib\encodings\cp950.py
+# code object from 'C:\\Python\\Lib\\encodings\\__pycache__\\cp950.cpython-311.pyc'
+import '_codecs_tw' # <class '_frozen_importlib.BuiltinImporter'>
+import '_multibytecodec' # <class '_frozen_importlib.BuiltinImporter'>
+import 'encodings.cp950' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB0364D0>
+import '_signal' # <class '_frozen_importlib.BuiltinImporter'>
+import '_abc' # <class '_frozen_importlib.BuiltinImporter'>
+import 'abc' # <class '_frozen_importlib.FrozenImporter'>
+import 'io' # <class '_frozen_importlib.FrozenImporter'>
+import '_stat' # <class '_frozen_importlib.BuiltinImporter'>
+import 'stat' # <class '_frozen_importlib.FrozenImporter'>
+import '_collections_abc' # <class '_frozen_importlib.FrozenImporter'>
+import 'genericpath' # <class '_frozen_importlib.FrozenImporter'>
+import '_winapi' # <class '_frozen_importlib.BuiltinImporter'>
+import 'ntpath' # <class '_frozen_importlib.FrozenImporter'>
+import 'os' # <class '_frozen_importlib.FrozenImporter'>
+import '_sitebuiltins' # <class '_frozen_importlib.FrozenImporter'>
+Processing user site-packages
+Processing global site-packages
+Adding directory: 'C:\\Python'
+Adding directory: 'C:\\Python\\Lib\\site-packages'
+Processing .pth file: 'C:\\Python\\Lib\\site-packages\\distutils-precedence.pth'
+# C:\Python\Lib\site-packages\_distutils_hack\__pycache__\__init__.cpython-311.pyc matches C:\Python\Lib\site-packages\_distutils_hack\__init__.py
+# code object from 'C:\\Python\\Lib\\site-packages\\_distutils_hack\\__pycache__\\__init__.cpython-311.pyc'
+import '_distutils_hack' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB20E310>
+Processing .pth file: 'C:\\Python\\Lib\\site-packages\\easy-install.pth'
+Processing .pth file: 'C:\\Python\\Lib\\site-packages\\pywin32.pth'
+# zipimport: found 9 names in 'C:\\Python\\Lib\\site-packages\\vboxapi-1.0-py3.11.egg'
+# C:\Python\Lib\site-packages\win32\lib\__pycache__\pywin32_bootstrap.cpython-311.pyc matches C:\Python\Lib\site-packages\win32\lib\pywin32_bootstrap.py
+# code object from 'C:\\Python\\Lib\\site-packages\\win32\\lib\\__pycache__\\pywin32_bootstrap.cpython-311.pyc'
+# possible namespace for C:\Python\Lib\site-packages\pywin32_system32
+import 'pywin32_system32' # <_frozen_importlib_external.NamespaceLoader object at 0x0000012CAB216390>
+import 'pywin32_bootstrap' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB216190>
+import 'site' # <class '_frozen_importlib.FrozenImporter'>
+Python 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+# C:\Python\Lib\site-packages\__pycache__\allure.cpython-311.pyc matches C:\Python\Lib\site-packages\allure.py
+# code object from 'C:\\Python\\Lib\\site-packages\\__pycache__\\allure.cpython-311.pyc'
+# C:\Python\Lib\site-packages\allure_commons\__pycache__\__init__.cpython-311.pyc matches C:\Python\Lib\site-packages\allure_commons\__init__.py
+# code object from 'C:\\Python\\Lib\\site-packages\\allure_commons\\__pycache__\\__init__.cpython-311.pyc'
+# C:\Python\Lib\site-packages\allure_commons\__pycache__\_hooks.cpython-311.pyc matches C:\Python\Lib\site-packages\allure_commons\_hooks.py
+# code object from 'C:\\Python\\Lib\\site-packages\\allure_commons\\__pycache__\\_hooks.cpython-311.pyc'
+# C:\Python\Lib\site-packages\pluggy\__pycache__\__init__.cpython-311.pyc matches C:\Python\Lib\site-packages\pluggy\__init__.py
+# code object from 'C:\\Python\\Lib\\site-packages\\pluggy\\__pycache__\\__init__.cpython-311.pyc'
+# C:\Python\Lib\site-packages\pluggy\__pycache__\_version.cpython-311.pyc matches C:\Python\Lib\site-packages\pluggy\_version.py
+# code object from 'C:\\Python\\Lib\\site-packages\\pluggy\\__pycache__\\_version.cpython-311.pyc'
+import 'pluggy._version' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB2382D0>
+# C:\Python\Lib\site-packages\pluggy\__pycache__\_manager.cpython-311.pyc matches C:\Python\Lib\site-packages\pluggy\_manager.py
+# code object from 'C:\\Python\\Lib\\site-packages\\pluggy\\__pycache__\\_manager.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\inspect.cpython-311.pyc matches C:\Python\Lib\inspect.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\inspect.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\ast.cpython-311.pyc matches C:\Python\Lib\ast.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\ast.cpython-311.pyc'
+import '_ast' # <class '_frozen_importlib.BuiltinImporter'>
+# C:\Python\Lib\__pycache__\contextlib.cpython-311.pyc matches C:\Python\Lib\contextlib.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\contextlib.cpython-311.pyc'
+# C:\Python\Lib\collections\__pycache__\__init__.cpython-311.pyc matches C:\Python\Lib\collections\__init__.py
+# code object from 'C:\\Python\\Lib\\collections\\__pycache__\\__init__.cpython-311.pyc'
+import 'itertools' # <class '_frozen_importlib.BuiltinImporter'>
+# C:\Python\Lib\__pycache__\keyword.cpython-311.pyc matches C:\Python\Lib\keyword.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\keyword.cpython-311.pyc'
+import 'keyword' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB2BACD0>
+# C:\Python\Lib\__pycache__\operator.cpython-311.pyc matches C:\Python\Lib\operator.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\operator.cpython-311.pyc'
+import '_operator' # <class '_frozen_importlib.BuiltinImporter'>
+import 'operator' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB2BB310>
+# C:\Python\Lib\__pycache__\reprlib.cpython-311.pyc matches C:\Python\Lib\reprlib.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\reprlib.cpython-311.pyc'
+import 'reprlib' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB2BBF90>
+import '_collections' # <class '_frozen_importlib.BuiltinImporter'>
+import 'collections' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB28F810>
+# C:\Python\Lib\__pycache__\functools.cpython-311.pyc matches C:\Python\Lib\functools.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\functools.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\types.cpython-311.pyc matches C:\Python\Lib\types.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\types.cpython-311.pyc'
+import 'types' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB2DA7D0>
+import '_functools' # <class '_frozen_importlib.BuiltinImporter'>
+import 'functools' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB29C110>
+import 'contextlib' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB28DAD0>
+# C:\Python\Lib\__pycache__\enum.cpython-311.pyc matches C:\Python\Lib\enum.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\enum.cpython-311.pyc'
+import 'enum' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB28FA90>
+import 'ast' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB259090>
+# C:\Python\Lib\__pycache__\dis.cpython-311.pyc matches C:\Python\Lib\dis.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\dis.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\opcode.cpython-311.pyc matches C:\Python\Lib\opcode.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\opcode.cpython-311.pyc'
+import '_opcode' # <class '_frozen_importlib.BuiltinImporter'>
+import 'opcode' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB32CC50>
+import 'dis' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB25B710>
+# C:\Python\Lib\collections\__pycache__\abc.cpython-311.pyc matches C:\Python\Lib\collections\abc.py
+# code object from 'C:\\Python\\Lib\\collections\\__pycache__\\abc.cpython-311.pyc'
+import 'collections.abc' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB334C10>
+# C:\Python\Lib\importlib\__pycache__\__init__.cpython-311.pyc matches C:\Python\Lib\importlib\__init__.py
+# code object from 'C:\\Python\\Lib\\importlib\\__pycache__\\__init__.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\warnings.cpython-311.pyc matches C:\Python\Lib\warnings.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\warnings.cpython-311.pyc'
+import 'warnings' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB340250>
+import 'importlib' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB334190>
+import 'importlib.machinery' # <class '_frozen_importlib.FrozenImporter'>
+# C:\Python\Lib\__pycache__\linecache.cpython-311.pyc matches C:\Python\Lib\linecache.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\linecache.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\tokenize.cpython-311.pyc matches C:\Python\Lib\tokenize.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\tokenize.cpython-311.pyc'
+# C:\Python\Lib\re\__pycache__\__init__.cpython-311.pyc matches C:\Python\Lib\re\__init__.py
+# code object from 'C:\\Python\\Lib\\re\\__pycache__\\__init__.cpython-311.pyc'
+# C:\Python\Lib\re\__pycache__\_compiler.cpython-311.pyc matches C:\Python\Lib\re\_compiler.py
+# code object from 'C:\\Python\\Lib\\re\\__pycache__\\_compiler.cpython-311.pyc'
+import '_sre' # <class '_frozen_importlib.BuiltinImporter'>
+# C:\Python\Lib\re\__pycache__\_parser.cpython-311.pyc matches C:\Python\Lib\re\_parser.py
+# code object from 'C:\\Python\\Lib\\re\\__pycache__\\_parser.cpython-311.pyc'
+# C:\Python\Lib\re\__pycache__\_constants.cpython-311.pyc matches C:\Python\Lib\re\_constants.py
+# code object from 'C:\\Python\\Lib\\re\\__pycache__\\_constants.cpython-311.pyc'
+import 're._constants' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB369590>
+import 're._parser' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB35A590>
+# C:\Python\Lib\re\__pycache__\_casefix.cpython-311.pyc matches C:\Python\Lib\re\_casefix.py
+# code object from 'C:\\Python\\Lib\\re\\__pycache__\\_casefix.cpython-311.pyc'
+import 're._casefix' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB36CD90>
+import 're._compiler' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB352E50>
+# C:\Python\Lib\__pycache__\copyreg.cpython-311.pyc matches C:\Python\Lib\copyreg.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\copyreg.cpython-311.pyc'
+import 'copyreg' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB36E050>
+import 're' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB351410>
+# C:\Python\Lib\__pycache__\token.cpython-311.pyc matches C:\Python\Lib\token.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\token.cpython-311.pyc'
+import 'token' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB352710>
+import 'tokenize' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB341FD0>
+import 'linecache' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB337ED0>
+import 'inspect' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB23AED0>
+# C:\Python\Lib\site-packages\pluggy\__pycache__\_tracing.cpython-311.pyc matches C:\Python\Lib\site-packages\pluggy\_tracing.py
+# code object from 'C:\\Python\\Lib\\site-packages\\pluggy\\__pycache__\\_tracing.cpython-311.pyc'
+import 'pluggy._tracing' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB24AF50>
+# C:\Python\Lib\site-packages\pluggy\__pycache__\_callers.cpython-311.pyc matches C:\Python\Lib\site-packages\pluggy\_callers.py
+# code object from 'C:\\Python\\Lib\\site-packages\\pluggy\\__pycache__\\_callers.cpython-311.pyc'
+# C:\Python\Lib\site-packages\pluggy\__pycache__\_result.cpython-311.pyc matches C:\Python\Lib\site-packages\pluggy\_result.py
+# code object from 'C:\\Python\\Lib\\site-packages\\pluggy\\__pycache__\\_result.cpython-311.pyc'
+import 'pluggy._result' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB382E10>
+import 'pluggy._callers' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB3828D0>
+# C:\Python\Lib\site-packages\pluggy\__pycache__\_hooks.cpython-311.pyc matches C:\Python\Lib\site-packages\pluggy\_hooks.py
+# code object from 'C:\\Python\\Lib\\site-packages\\pluggy\\__pycache__\\_hooks.cpython-311.pyc'
+import 'pluggy._hooks' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB382B10>
+# C:\Python\Lib\importlib\metadata\__pycache__\__init__.cpython-311.pyc matches C:\Python\Lib\importlib\metadata\__init__.py
+# code object from 'C:\\Python\\Lib\\importlib\\metadata\\__pycache__\\__init__.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\csv.cpython-311.pyc matches C:\Python\Lib\csv.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\csv.cpython-311.pyc'
+import '_csv' # <class '_frozen_importlib.BuiltinImporter'>
+import 'csv' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB3AEF10>
+# C:\Python\Lib\email\__pycache__\__init__.cpython-311.pyc matches C:\Python\Lib\email\__init__.py
+# code object from 'C:\\Python\\Lib\\email\\__pycache__\\__init__.cpython-311.pyc'
+import 'email' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB3D1010>
+# C:\Python\Lib\__pycache__\pathlib.cpython-311.pyc matches C:\Python\Lib\pathlib.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\pathlib.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\fnmatch.cpython-311.pyc matches C:\Python\Lib\fnmatch.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\fnmatch.cpython-311.pyc'
+import 'posixpath' # <class '_frozen_importlib.FrozenImporter'>
+import 'fnmatch' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB3E6A90>
+import 'errno' # <class '_frozen_importlib.BuiltinImporter'>
+# C:\Python\Lib\urllib\__pycache__\__init__.cpython-311.pyc matches C:\Python\Lib\urllib\__init__.py
+# code object from 'C:\\Python\\Lib\\urllib\\__pycache__\\__init__.cpython-311.pyc'
+import 'urllib' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB6018D0>
+# C:\Python\Lib\urllib\__pycache__\parse.cpython-311.pyc matches C:\Python\Lib\urllib\parse.py
+# code object from 'C:\\Python\\Lib\\urllib\\__pycache__\\parse.cpython-311.pyc'
+import 'urllib.parse' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB601C50>
+import 'pathlib' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB3D1550>
+# C:\Python\Lib\__pycache__\zipfile.cpython-311.pyc matches C:\Python\Lib\zipfile.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\zipfile.cpython-311.pyc'
+import 'binascii' # <class '_frozen_importlib.BuiltinImporter'>
+# C:\Python\Lib\importlib\__pycache__\_abc.cpython-311.pyc matches C:\Python\Lib\importlib\_abc.py
+# code object from 'C:\\Python\\Lib\\importlib\\__pycache__\\_abc.cpython-311.pyc'
+import 'importlib._abc' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB641B10>
+import 'importlib.util' # <class '_frozen_importlib.FrozenImporter'>
+# C:\Python\Lib\__pycache__\shutil.cpython-311.pyc matches C:\Python\Lib\shutil.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\shutil.cpython-311.pyc'
+import 'zlib' # <class '_frozen_importlib.BuiltinImporter'>
+# C:\Python\Lib\__pycache__\bz2.cpython-311.pyc matches C:\Python\Lib\bz2.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\bz2.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\_compression.cpython-311.pyc matches C:\Python\Lib\_compression.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\_compression.cpython-311.pyc'
+import '_compression' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB65BF90>
+# extension module '_bz2' loaded from 'C:\\Python\\DLLs\\_bz2.pyd'
+# extension module '_bz2' executed from 'C:\\Python\\DLLs\\_bz2.pyd'
+import '_bz2' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000012CAB664E50>
+import 'bz2' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB65AF50>
+# C:\Python\Lib\__pycache__\lzma.cpython-311.pyc matches C:\Python\Lib\lzma.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\lzma.cpython-311.pyc'
+# extension module '_lzma' loaded from 'C:\\Python\\DLLs\\_lzma.pyd'
+# extension module '_lzma' executed from 'C:\\Python\\DLLs\\_lzma.pyd'
+import '_lzma' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000012CAB6664D0>
+import 'lzma' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB6654D0>
+import 'shutil' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB642310>
+# C:\Python\Lib\__pycache__\struct.cpython-311.pyc matches C:\Python\Lib\struct.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\struct.cpython-311.pyc'
+import '_struct' # <class '_frozen_importlib.BuiltinImporter'>
+import 'struct' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB643250>
+# C:\Python\Lib\__pycache__\threading.cpython-311.pyc matches C:\Python\Lib\threading.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\threading.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\_weakrefset.cpython-311.pyc matches C:\Python\Lib\_weakrefset.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\_weakrefset.cpython-311.pyc'
+import '_weakrefset' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB698450>
+import 'threading' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB667C10>
+import 'zipfile' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB3E6850>
+# C:\Python\Lib\__pycache__\textwrap.cpython-311.pyc matches C:\Python\Lib\textwrap.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\textwrap.cpython-311.pyc'
+import 'textwrap' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB69B690>
+# C:\Python\Lib\importlib\metadata\__pycache__\_adapters.cpython-311.pyc matches C:\Python\Lib\importlib\metadata\_adapters.py
+# code object from 'C:\\Python\\Lib\\importlib\\metadata\\__pycache__\\_adapters.cpython-311.pyc'
+# C:\Python\Lib\email\__pycache__\message.cpython-311.pyc matches C:\Python\Lib\email\message.py
+# code object from 'C:\\Python\\Lib\\email\\__pycache__\\message.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\quopri.cpython-311.pyc matches C:\Python\Lib\quopri.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\quopri.cpython-311.pyc'
+import 'quopri' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB6B7AD0>
+# C:\Python\Lib\email\__pycache__\utils.cpython-311.pyc matches C:\Python\Lib\email\utils.py
+# code object from 'C:\\Python\\Lib\\email\\__pycache__\\utils.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\random.cpython-311.pyc matches C:\Python\Lib\random.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\random.cpython-311.pyc'
+import 'math' # <class '_frozen_importlib.BuiltinImporter'>
+# C:\Python\Lib\__pycache__\bisect.cpython-311.pyc matches C:\Python\Lib\bisect.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\bisect.cpython-311.pyc'
+import '_bisect' # <class '_frozen_importlib.BuiltinImporter'>
+import 'bisect' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB6CDC10>
+import '_random' # <class '_frozen_importlib.BuiltinImporter'>
+import '_sha512' # <class '_frozen_importlib.BuiltinImporter'>
+import 'random' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB6C6290>
+# C:\Python\Lib\__pycache__\socket.cpython-311.pyc matches C:\Python\Lib\socket.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\socket.cpython-311.pyc'
+# extension module '_socket' loaded from 'C:\\Python\\DLLs\\_socket.pyd'
+# extension module '_socket' executed from 'C:\\Python\\DLLs\\_socket.pyd'
+import '_socket' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000012CAB6E6050>
+# C:\Python\Lib\__pycache__\selectors.cpython-311.pyc matches C:\Python\Lib\selectors.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\selectors.cpython-311.pyc'
+# extension module 'select' loaded from 'C:\\Python\\DLLs\\select.pyd'
+# extension module 'select' executed from 'C:\\Python\\DLLs\\select.pyd'
+import 'select' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000012CAB6EE3D0>
+import 'selectors' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB6ECA10>
+import 'socket' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB6CED10>
+# C:\Python\Lib\__pycache__\datetime.cpython-311.pyc matches C:\Python\Lib\datetime.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\datetime.cpython-311.pyc'
+import '_datetime' # <class '_frozen_importlib.BuiltinImporter'>
+import 'datetime' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB6CEE50>
+# C:\Python\Lib\email\__pycache__\_parseaddr.cpython-311.pyc matches C:\Python\Lib\email\_parseaddr.py
+# code object from 'C:\\Python\\Lib\\email\\__pycache__\\_parseaddr.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\calendar.cpython-311.pyc matches C:\Python\Lib\calendar.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\calendar.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\locale.cpython-311.pyc matches C:\Python\Lib\locale.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\locale.cpython-311.pyc'
+import '_locale' # <class '_frozen_importlib.BuiltinImporter'>
+import 'locale' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB77E9D0>
+import 'calendar' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB77D7D0>
+import 'email._parseaddr' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB6CFED0>
+# C:\Python\Lib\email\__pycache__\charset.cpython-311.pyc matches C:\Python\Lib\email\charset.py
+# code object from 'C:\\Python\\Lib\\email\\__pycache__\\charset.cpython-311.pyc'
+# C:\Python\Lib\email\__pycache__\base64mime.cpython-311.pyc matches C:\Python\Lib\email\base64mime.py
+# code object from 'C:\\Python\\Lib\\email\\__pycache__\\base64mime.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\base64.cpython-311.pyc matches C:\Python\Lib\base64.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\base64.cpython-311.pyc'
+import 'base64' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB7A7210>
+import 'email.base64mime' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB7A6BD0>
+# C:\Python\Lib\email\__pycache__\quoprimime.cpython-311.pyc matches C:\Python\Lib\email\quoprimime.py
+# code object from 'C:\\Python\\Lib\\email\\__pycache__\\quoprimime.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\string.cpython-311.pyc matches C:\Python\Lib\string.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\string.cpython-311.pyc'
+import '_string' # <class '_frozen_importlib.BuiltinImporter'>
+import 'string' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB7A9110>
+import 'email.quoprimime' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB7A7AD0>
+# C:\Python\Lib\email\__pycache__\errors.cpython-311.pyc matches C:\Python\Lib\email\errors.py
+# code object from 'C:\\Python\\Lib\\email\\__pycache__\\errors.cpython-311.pyc'
+import 'email.errors' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB7B71D0>
+# C:\Python\Lib\email\__pycache__\encoders.cpython-311.pyc matches C:\Python\Lib\email\encoders.py
+# code object from 'C:\\Python\\Lib\\email\\__pycache__\\encoders.cpython-311.pyc'
+import 'email.encoders' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB7B7550>
+import 'email.charset' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB7662D0>
+import 'email.utils' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB6C43D0>
+# C:\Python\Lib\email\__pycache__\_policybase.cpython-311.pyc matches C:\Python\Lib\email\_policybase.py
+# code object from 'C:\\Python\\Lib\\email\\__pycache__\\_policybase.cpython-311.pyc'
+# C:\Python\Lib\email\__pycache__\header.cpython-311.pyc matches C:\Python\Lib\email\header.py
+# code object from 'C:\\Python\\Lib\\email\\__pycache__\\header.cpython-311.pyc'
+import 'email.header' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB7B9310>
+import 'email._policybase' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB6C6010>
+# C:\Python\Lib\email\__pycache__\_encoded_words.cpython-311.pyc matches C:\Python\Lib\email\_encoded_words.py
+# code object from 'C:\\Python\\Lib\\email\\__pycache__\\_encoded_words.cpython-311.pyc'
+import 'email._encoded_words' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB7BB910>
+# C:\Python\Lib\email\__pycache__\iterators.cpython-311.pyc matches C:\Python\Lib\email\iterators.py
+# code object from 'C:\\Python\\Lib\\email\\__pycache__\\iterators.cpython-311.pyc'
+import 'email.iterators' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB7E0610>
+import 'email.message' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB6B3DD0>
+# C:\Python\Lib\importlib\metadata\__pycache__\_text.cpython-311.pyc matches C:\Python\Lib\importlib\metadata\_text.py
+# code object from 'C:\\Python\\Lib\\importlib\\metadata\\__pycache__\\_text.cpython-311.pyc'
+# C:\Python\Lib\importlib\metadata\__pycache__\_functools.cpython-311.pyc matches C:\Python\Lib\importlib\metadata\_functools.py
+# code object from 'C:\\Python\\Lib\\importlib\\metadata\\__pycache__\\_functools.cpython-311.pyc'
+import 'importlib.metadata._functools' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB7E0E50>
+import 'importlib.metadata._text' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB7E0990>
+import 'importlib.metadata._adapters' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB69B950>
+# C:\Python\Lib\importlib\metadata\__pycache__\_meta.cpython-311.pyc matches C:\Python\Lib\importlib\metadata\_meta.py
+# code object from 'C:\\Python\\Lib\\importlib\\metadata\\__pycache__\\_meta.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\typing.cpython-311.pyc matches C:\Python\Lib\typing.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\typing.cpython-311.pyc'
+import '_typing' # <class '_frozen_importlib.BuiltinImporter'>
+import 'typing' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB7E22D0>
+import 'importlib.metadata._meta' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB6B0090>
+# C:\Python\Lib\importlib\metadata\__pycache__\_collections.cpython-311.pyc matches C:\Python\Lib\importlib\metadata\_collections.py
+# code object from 'C:\\Python\\Lib\\importlib\\metadata\\__pycache__\\_collections.cpython-311.pyc'
+import 'importlib.metadata._collections' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABC48F90>
+# C:\Python\Lib\importlib\metadata\__pycache__\_itertools.cpython-311.pyc matches C:\Python\Lib\importlib\metadata\_itertools.py
+# code object from 'C:\\Python\\Lib\\importlib\\metadata\\__pycache__\\_itertools.cpython-311.pyc'
+import 'importlib.metadata._itertools' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABC498D0>
+# C:\Python\Lib\importlib\__pycache__\abc.cpython-311.pyc matches C:\Python\Lib\importlib\abc.py
+# code object from 'C:\\Python\\Lib\\importlib\\__pycache__\\abc.cpython-311.pyc'
+# C:\Python\Lib\importlib\resources\__pycache__\__init__.cpython-311.pyc matches C:\Python\Lib\importlib\resources\__init__.py
+# code object from 'C:\\Python\\Lib\\importlib\\resources\\__pycache__\\__init__.cpython-311.pyc'
+# C:\Python\Lib\importlib\resources\__pycache__\_common.cpython-311.pyc matches C:\Python\Lib\importlib\resources\_common.py
+# code object from 'C:\\Python\\Lib\\importlib\\resources\\__pycache__\\_common.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\tempfile.cpython-311.pyc matches C:\Python\Lib\tempfile.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\tempfile.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\weakref.cpython-311.pyc matches C:\Python\Lib\weakref.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\weakref.cpython-311.pyc'
+import 'weakref' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABC5A410>
+import 'tempfile' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABC4B8D0>
+# C:\Python\Lib\importlib\resources\__pycache__\abc.cpython-311.pyc matches C:\Python\Lib\importlib\resources\abc.py
+# code object from 'C:\\Python\\Lib\\importlib\\resources\\__pycache__\\abc.cpython-311.pyc'
+import 'importlib.resources.abc' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABC58E50>
+# C:\Python\Lib\importlib\resources\__pycache__\_adapters.cpython-311.pyc matches C:\Python\Lib\importlib\resources\_adapters.py
+# code object from 'C:\\Python\\Lib\\importlib\\resources\\__pycache__\\_adapters.cpython-311.pyc'
+import 'importlib.resources._adapters' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABC7E950>
+import 'importlib.resources._common' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABC4AD10>
+# C:\Python\Lib\importlib\resources\__pycache__\_legacy.cpython-311.pyc matches C:\Python\Lib\importlib\resources\_legacy.py
+# code object from 'C:\\Python\\Lib\\importlib\\resources\\__pycache__\\_legacy.cpython-311.pyc'
+import 'importlib.resources._legacy' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABC7FD90>
+import 'importlib.resources' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABC4A4D0>
+import 'importlib.abc' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABC49950>
+import 'importlib.metadata' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB3AC4D0>
+import 'pluggy._manager' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB2389D0>
+import 'pluggy' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB22BAD0>
+import 'allure_commons._hooks' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB229F90>
+# C:\Python\Lib\site-packages\allure_commons\__pycache__\_core.cpython-311.pyc matches C:\Python\Lib\site-packages\allure_commons\_core.py
+# code object from 'C:\\Python\\Lib\\site-packages\\allure_commons\\__pycache__\\_core.cpython-311.pyc'
+# C:\Python\Lib\site-packages\__pycache__\six.cpython-311.pyc matches C:\Python\Lib\site-packages\six.py
+# code object from 'C:\\Python\\Lib\\site-packages\\__pycache__\\six.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\__future__.cpython-311.pyc matches C:\Python\Lib\__future__.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\__future__.cpython-311.pyc'
+import '__future__' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABCAC950>
+import 'six' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABCA0950>
+import 'allure_commons._core' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABCA0590>
+# C:\Python\Lib\site-packages\allure_commons\__pycache__\_allure.cpython-311.pyc matches C:\Python\Lib\site-packages\allure_commons\_allure.py
+# code object from 'C:\\Python\\Lib\\site-packages\\allure_commons\\__pycache__\\_allure.cpython-311.pyc'
+# C:\Python\Lib\site-packages\allure_commons\__pycache__\types.cpython-311.pyc matches C:\Python\Lib\site-packages\allure_commons\types.py
+# code object from 'C:\\Python\\Lib\\site-packages\\allure_commons\\__pycache__\\types.cpython-311.pyc'
+import 'allure_commons.types' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABCBA0D0>
+# C:\Python\Lib\site-packages\allure_commons\__pycache__\utils.cpython-311.pyc matches C:\Python\Lib\site-packages\allure_commons\utils.py
+# code object from 'C:\\Python\\Lib\\site-packages\\allure_commons\\__pycache__\\utils.cpython-311.pyc'
+# C:\Python\Lib\__pycache__\uuid.cpython-311.pyc matches C:\Python\Lib\uuid.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\uuid.cpython-311.pyc'
+# extension module '_uuid' loaded from 'C:\\Python\\DLLs\\_uuid.pyd'
+# extension module '_uuid' executed from 'C:\\Python\\DLLs\\_uuid.pyd'
+import '_uuid' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000012CABCD8CD0>
+import 'uuid' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABCC5950>
+# C:\Python\Lib\json\__pycache__\__init__.cpython-311.pyc matches C:\Python\Lib\json\__init__.py
+# code object from 'C:\\Python\\Lib\\json\\__pycache__\\__init__.cpython-311.pyc'
+# C:\Python\Lib\json\__pycache__\decoder.cpython-311.pyc matches C:\Python\Lib\json\decoder.py
+# code object from 'C:\\Python\\Lib\\json\\__pycache__\\decoder.cpython-311.pyc'
+# C:\Python\Lib\json\__pycache__\scanner.cpython-311.pyc matches C:\Python\Lib\json\scanner.py
+# code object from 'C:\\Python\\Lib\\json\\__pycache__\\scanner.cpython-311.pyc'
+import '_json' # <class '_frozen_importlib.BuiltinImporter'>
+import 'json.scanner' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABCDAC50>
+import 'json.decoder' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABCD9A10>
+# C:\Python\Lib\json\__pycache__\encoder.cpython-311.pyc matches C:\Python\Lib\json\encoder.py
+# code object from 'C:\\Python\\Lib\\json\\__pycache__\\encoder.cpython-311.pyc'
+import 'json.encoder' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABCDBD10>
+import 'json' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABCD8D90>
+# C:\Python\Lib\__pycache__\hashlib.cpython-311.pyc matches C:\Python\Lib\hashlib.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\hashlib.cpython-311.pyc'
+# extension module '_hashlib' loaded from 'C:\\Python\\DLLs\\_hashlib.pyd'
+# extension module '_hashlib' executed from 'C:\\Python\\DLLs\\_hashlib.pyd'
+import '_hashlib' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000012CAB73A490>
+import '_blake2' # <class '_frozen_importlib.BuiltinImporter'>
+import 'hashlib' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB73BE10>
+# C:\Python\Lib\__pycache__\platform.cpython-311.pyc matches C:\Python\Lib\platform.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\platform.cpython-311.pyc'
+import 'platform' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB73AE50>
+# C:\Python\Lib\__pycache__\traceback.cpython-311.pyc matches C:\Python\Lib\traceback.py
+# code object from 'C:\\Python\\Lib\\__pycache__\\traceback.cpython-311.pyc'
+import 'traceback' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABCFA650>
+import 'allure_commons.utils' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CABCBB790>
+import 'allure_commons._allure' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB229B50>
+import 'allure_commons' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB229AD0>
+import 'allure' # <_frozen_importlib_external.SourceFileLoader object at 0x0000012CAB228B10>
+# clear builtins._
+# clear sys.path
+# clear sys.argv
+# clear sys.ps1
+# clear sys.ps2
+# clear sys.last_type
+# clear sys.last_value
+# clear sys.last_traceback
+# clear sys.path_hooks
+# clear sys.path_importer_cache
+# clear sys.meta_path
+# clear sys.__interactivehook__
+# restore sys.stdin
+# restore sys.stdout
+# restore sys.stderr
+# cleanup[2] removing sys
+# cleanup[2] removing builtins
+# cleanup[2] removing _frozen_importlib
+# cleanup[2] removing _imp
+# cleanup[2] removing _thread
+# cleanup[2] removing _warnings
+# cleanup[2] removing _weakref
+# cleanup[2] removing winreg
+# cleanup[2] removing _io
+# cleanup[2] removing marshal
+# cleanup[2] removing nt
+# cleanup[2] removing _frozen_importlib_external
+# cleanup[2] removing time
+# cleanup[2] removing zipimport
+# destroy zipimport
+# cleanup[2] removing _codecs
+# cleanup[2] removing codecs
+# cleanup[2] removing encodings.aliases
+# cleanup[2] removing encodings
+# cleanup[2] removing encodings.utf_8
+# cleanup[2] removing _codecs_tw
+# cleanup[2] removing _multibytecodec
+# cleanup[2] removing encodings.cp950
+# cleanup[2] removing _signal
+# cleanup[2] removing _abc
+# cleanup[2] removing abc
+# cleanup[2] removing io
+# cleanup[2] removing __main__
+# destroy __main__
+# cleanup[2] removing _stat
+# cleanup[2] removing stat
+# cleanup[2] removing _collections_abc
+# cleanup[2] removing genericpath
+# cleanup[2] removing _winapi
+# cleanup[2] removing ntpath
+# cleanup[2] removing os.path
+# cleanup[2] removing os
+# cleanup[2] removing _sitebuiltins
+# cleanup[2] removing _distutils_hack
+# destroy _distutils_hack
+# cleanup[2] removing pywin32_system32
+# cleanup[2] removing pywin32_bootstrap
+# destroy pywin32_bootstrap
+# destroy pywin32_system32
+# cleanup[2] removing site
+# destroy site
+# cleanup[2] removing pluggy._version
+# cleanup[2] removing _ast
+# destroy _ast
+# cleanup[2] removing itertools
+# cleanup[2] removing keyword
+# destroy keyword
+# cleanup[2] removing _operator
+# cleanup[2] removing operator
+# cleanup[2] removing reprlib
+# destroy reprlib
+# cleanup[2] removing _collections
+# cleanup[2] removing collections
+# cleanup[2] removing types
+# cleanup[2] removing _functools
+# cleanup[2] removing functools
+# cleanup[2] removing contextlib
+# cleanup[2] removing enum
+# cleanup[2] removing ast
+# cleanup[2] removing _opcode
+# cleanup[2] removing opcode
+# destroy opcode
+# cleanup[2] removing dis
+# cleanup[2] removing collections.abc
+# cleanup[2] removing importlib._bootstrap
+# cleanup[2] removing importlib._bootstrap_external
+# cleanup[2] removing warnings
+# cleanup[2] removing importlib
+# cleanup[2] removing importlib.machinery
+# cleanup[2] removing _sre
+# cleanup[2] removing re._constants
+# cleanup[2] removing re._parser
+# cleanup[2] removing re._casefix
+# cleanup[2] removing re._compiler
+# cleanup[2] removing copyreg
+# cleanup[2] removing re
+# cleanup[2] removing token
+# cleanup[2] removing tokenize
+# cleanup[2] removing linecache
+# cleanup[2] removing inspect
+# cleanup[2] removing pluggy._tracing
+# cleanup[2] removing pluggy._result
+# cleanup[2] removing pluggy._callers
+# cleanup[2] removing pluggy._hooks
+# cleanup[2] removing _csv
+# cleanup[2] removing csv
+# cleanup[2] removing email
+# cleanup[2] removing posixpath
+# cleanup[2] removing fnmatch
+# cleanup[2] removing errno
+# cleanup[2] removing urllib
+# cleanup[2] removing urllib.parse
+# cleanup[2] removing pathlib
+# cleanup[2] removing binascii
+# cleanup[2] removing importlib._abc
+# cleanup[2] removing importlib.util
+# cleanup[2] removing zlib
+# cleanup[2] removing _compression
+# cleanup[2] removing _bz2
+# cleanup[2] removing bz2
+# cleanup[2] removing _lzma
+# cleanup[2] removing lzma
+# cleanup[2] removing shutil
+# cleanup[2] removing _struct
+# cleanup[2] removing struct
+# cleanup[2] removing _weakrefset
+# destroy _weakrefset
+# cleanup[2] removing threading
+# cleanup[2] removing zipfile
+# cleanup[2] removing textwrap
+# cleanup[2] removing quopri
+# cleanup[2] removing math
+# cleanup[2] removing _bisect
+# cleanup[2] removing bisect
+# destroy bisect
+# cleanup[2] removing _random
+# cleanup[2] removing _sha512
+# cleanup[2] removing random
+# cleanup[2] removing _socket
+# cleanup[2] removing select
+# cleanup[2] removing selectors
+# cleanup[2] removing socket
+# cleanup[2] removing _datetime
+# cleanup[2] removing datetime
+# cleanup[2] removing _locale
+# cleanup[2] removing locale
+# cleanup[2] removing calendar
+# cleanup[2] removing email._parseaddr
+# cleanup[2] removing base64
+# cleanup[2] removing email.base64mime
+# cleanup[2] removing _string
+# cleanup[2] removing string
+# cleanup[2] removing email.quoprimime
+# cleanup[2] removing email.errors
+# cleanup[2] removing email.encoders
+# cleanup[2] removing email.charset
+# cleanup[2] removing email.utils
+# cleanup[2] removing email.header
+# cleanup[2] removing email._policybase
+# cleanup[2] removing email._encoded_words
+# cleanup[2] removing email.iterators
+# cleanup[2] removing email.message
+# cleanup[2] removing importlib.metadata._functools
+# cleanup[2] removing importlib.metadata._text
+# cleanup[2] removing importlib.metadata._adapters
+# cleanup[2] removing _typing
+# cleanup[2] removing typing
+# destroy typing
+# cleanup[2] removing importlib.metadata._meta
+# cleanup[2] removing importlib.metadata._collections
+# cleanup[2] removing importlib.metadata._itertools
+# cleanup[2] removing weakref
+# cleanup[2] removing tempfile
+# cleanup[2] removing importlib.resources.abc
+# cleanup[2] removing importlib.resources._adapters
+# cleanup[2] removing importlib.resources._common
+# cleanup[2] removing importlib.resources._legacy
+# cleanup[2] removing importlib.resources
+# cleanup[2] removing importlib.abc
+# cleanup[2] removing importlib.metadata
+# cleanup[2] removing pluggy._manager
+# cleanup[2] removing pluggy
+# destroy pluggy
+# destroy pluggy._version
+# destroy pluggy._result
+# destroy pluggy._callers
+# destroy pluggy._hooks
+# destroy pluggy._manager
+# cleanup[2] removing allure_commons._hooks
+# cleanup[2] removing __future__
+# destroy __future__
+# cleanup[2] removing six
+# cleanup[2] removing allure_commons._core
+# cleanup[2] removing allure_commons.types
+# cleanup[2] removing _uuid
+# cleanup[2] removing uuid
+# cleanup[2] removing _json
+# cleanup[2] removing json.scanner
+# cleanup[2] removing json.decoder
+# cleanup[2] removing json.encoder
+# cleanup[2] removing json
+# cleanup[2] removing _hashlib
+# cleanup[2] removing _blake2
+# cleanup[2] removing hashlib
+# cleanup[2] removing platform
+# cleanup[2] removing traceback
+# cleanup[2] removing allure_commons.utils
+# cleanup[2] removing allure_commons._allure
+# cleanup[2] removing allure_commons
+# destroy allure_commons
+# destroy allure_commons._core
+# destroy allure_commons.types
+# destroy allure_commons.utils
+# destroy allure_commons._allure
+# cleanup[2] removing allure
+# destroy _signal
+# destroy allure
+# destroy _sitebuiltins
+# destroy pluggy._tracing
+# destroy ast
+# destroy dis
+# destroy token
+# destroy _opcode
+# destroy importlib._abc
+# destroy importlib.util
+# destroy importlib.resources
+# destroy importlib.resources._adapters
+# destroy importlib.resources._legacy
+# destroy importlib.abc
+# destroy importlib.metadata
+# destroy tokenize
+# destroy enum
+# destroy re._constants
+# destroy re._casefix
+# destroy re._compiler
+# destroy copyreg
+# destroy re._parser
+# destroy _sre
+# destroy csv
+# destroy zipfile
+# destroy importlib.metadata._functools
+# destroy importlib.metadata._text
+# destroy importlib.metadata._adapters
+# destroy importlib.metadata._meta
+# destroy importlib.metadata._collections
+# destroy importlib.metadata._itertools
+# destroy _csv
+# destroy email._parseaddr
+# destroy email.base64mime
+# destroy email.quoprimime
+# destroy email.encoders
+# destroy email._policybase
+# destroy email._encoded_words
+# destroy email.iterators
+# destroy email.message
+# destroy urllib.parse
+# destroy posixpath
+# destroy bz2
+# destroy lzma
+# destroy fnmatch
+# destroy zlib
+# destroy _bz2
+# destroy _compression
+# destroy _lzma
+# destroy quopri
+# destroy email.utils
+# destroy random
+# destroy urllib
+# destroy _bisect
+# destroy _random
+# destroy _sha512
+# destroy selectors
+# destroy math
+# destroy select
+# destroy calendar
+# destroy datetime
+# destroy locale
+# destroy encodings
+# destroy _locale
+# destroy struct
+# destroy _string
+# destroy email.header
+# destroy email
+# destroy email.charset
+# destroy base64
+# destroy binascii
+# destroy email.errors
+# destroy _typing
+# destroy importlib.machinery
+# destroy tempfile
+# destroy contextlib
+# destroy importlib
+# destroy shutil
+# destroy errno
+# destroy weakref
+# destroy io
+# destroy importlib.resources.abc
+# destroy pathlib
+# destroy warnings
+# destroy importlib.resources._common
+# destroy allure_commons._hooks
+# destroy string
+# destroy six
+# destroy uuid
+# destroy json
+# destroy socket
+# destroy inspect
+# destroy hashlib
+# destroy platform
+# destroy threading
+# destroy traceback
+# destroy _uuid
+# destroy json.decoder
+# destroy json.encoder
+# destroy json.scanner
+# destroy _json
+# destroy _hashlib
+# destroy _blake2
+# destroy re
+# destroy collections
+# destroy linecache
+# destroy textwrap
+# cleanup[3] wiping _datetime
+# cleanup[3] wiping _socket
+# cleanup[3] wiping _struct
+# cleanup[3] wiping importlib._bootstrap_external
+# cleanup[3] wiping importlib._bootstrap
+# cleanup[3] wiping collections.abc
+# cleanup[3] wiping functools
+# cleanup[3] wiping _functools
+# cleanup[3] wiping types
+# cleanup[3] wiping _collections
+# cleanup[3] wiping operator
+# cleanup[3] wiping _operator
+# cleanup[3] wiping itertools
+# cleanup[3] wiping os
+# destroy ntpath
+# cleanup[3] wiping _winapi
+# cleanup[3] wiping genericpath
+# cleanup[3] wiping _collections_abc
+# cleanup[3] wiping stat
+# cleanup[3] wiping _stat
+# destroy _stat
+# cleanup[3] wiping abc
+# cleanup[3] wiping _abc
+# cleanup[3] wiping encodings.cp950
+# cleanup[3] wiping _multibytecodec
+# cleanup[3] wiping _codecs_tw
+# destroy _codecs_tw
+# cleanup[3] wiping encodings.utf_8
+# cleanup[3] wiping encodings.aliases
+# cleanup[3] wiping codecs
+# cleanup[3] wiping _codecs
+# cleanup[3] wiping time
+# cleanup[3] wiping _frozen_importlib_external
+# cleanup[3] wiping nt
+# cleanup[3] wiping marshal
+# cleanup[3] wiping _io
+# cleanup[3] wiping winreg
+# cleanup[3] wiping _weakref
+# cleanup[3] wiping _warnings
+# cleanup[3] wiping _thread
+# cleanup[3] wiping _imp
+# cleanup[3] wiping _frozen_importlib
+# cleanup[3] wiping sys
+# cleanup[3] wiping builtins
+# destroy _datetime
+# destroy _socket
+# destroy winreg
+# destroy six.moves.urllib
+# destroy _frozen_importlib_external
+# destroy _imp
+# destroy io
+# destroy marshal
+# destroy time
+# destroy _warnings
+# destroy six.moves.urllib_parse
+# destroy six.moves.urllib.error
+# destroy six.moves.urllib.request
+# destroy six.moves.urllib.response
+# destroy six.moves.urllib.robotparser
+# destroy functools
+# destroy itertools
+# destroy operator
+# destroy types
+# destroy six.moves
+# destroy stat
+# destroy genericpath
+# destroy nt
+# destroy _weakref
+# destroy _collections
+# destroy collections.abc
+# destroy _thread
+# destroy _struct
+# destroy _winapi
+# destroy _frozen_importlib
+# destroy codecs
+# destroy encodings.aliases
+# destroy encodings.utf_8
+# destroy encodings.cp950
+# destroy _codecs
+# destroy abc
+# destroy os
+# destroy _collections_abc
+# destroy sys
+# destroy builtins
+# destroy _abc
+# destroy _operator
+# destroy _functools
+# destroy _multibytecodec
+# clear sys.audit hooks
+Hello world112
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>exit 0 
+[auto_v1.1] $ C:\allure-2.20.1\bin\allure.bat generate C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-results -c -o C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-report
+Report successfully generated to C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\target\allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: SUCCESS

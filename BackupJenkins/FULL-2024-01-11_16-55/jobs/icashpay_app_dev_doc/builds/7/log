@@ -1,0 +1,37 @@
+¥Ñ¨Ï¥ÎªÌ [8mha:////4A1U7Qooju7bdClrTlY6u2ZYDAMIeKZGrEy/JEoBt3btAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9xJTEPACulnT/vwAAAA==[0madan ±Ò°Ê
+Running as SYSTEM
+«Ø¸m¤¤ ¤u§@°Ï C:\ProgramData\Jenkins\.jenkins\workspace\icashpay_app_dev_doc
+The recommended git tool is: NONE
+using credential 71342868-d76a-411f-b127-5cb34419dcbd
+ > C:\Program Files\Git\bin\git.exe rev-parse --resolve-git-dir C:\ProgramData\Jenkins\.jenkins\workspace\icashpay_app_dev_doc\.git # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc.git # timeout=10
+Fetching upstream changes from http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > git --version # 'git version 2.39.0.windows.2'
+using GIT_ASKPASS to set credentials 
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress -- http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 54e1e35c0b72aa6584c6cc8377c16b3e5b40e359 (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f 54e1e35c0b72aa6584c6cc8377c16b3e5b40e359 # timeout=10
+Commit message: "Update README.md"
+ > C:\Program Files\Git\bin\git.exe rev-list --no-walk 697f1776feaa3fd2e128dd71234f76084d6a83d3 # timeout=10
+[Checks API] No suitable checks publisher found.
+No emails were triggered.
+[icashpay_app_dev_doc] $ cmd /c call C:\Windows\TEMP\jenkins7470632789212902213.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\icashpay_app_dev_doc>cd C:/icashpay_app_dev_doc 
+
+C:\icashpay_app_dev_doc>git pull 
+From http://gitlab.icashpay.com.tw/icashpay_app_team/icashpay_app_dev_doc
+   697f177..54e1e35  master     -> origin/master
+Updating 697f177..54e1e35
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\icashpay_app_dev_doc>exit 0 
+[Checks API] No suitable checks publisher found.
+No emails were triggered.
+Finished: SUCCESS

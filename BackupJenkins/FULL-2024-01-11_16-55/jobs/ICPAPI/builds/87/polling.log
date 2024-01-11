@@ -1,0 +1,19 @@
+Started on 2023年12月22日 下午5:55:00
+Polling SCM changes on built-in
+Using strategy: Default
+[poll] Last Built Revision: Revision 0a9818e75ebd8724d3e2d1608b2090785b7cec8e (refs/remotes/origin/main)
+The recommended git tool is: NONE
+using credential 4d309da6-1441-4322-bb91-f245a8dec50f
+ > C:\Program Files\Git\cmd\git.exe rev-parse --resolve-git-dir C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI\.git # timeout=10
+Fetching changes from the remote Git repositories
+ > C:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/Athena20230322/testicashapi.git # timeout=10
+Fetching upstream changes from https://github.com/Athena20230322/testicashapi.git
+ > C:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > git --version # 'git version 2.39.0.windows.2'
+using GIT_ASKPASS to set credentials 
+ > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress -- https://github.com/Athena20230322/testicashapi.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Polling for changes in
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+ > C:\Program Files\Git\cmd\git.exe log --full-history --no-abbrev --format=raw -M -m --raw 0a9818e75ebd8724d3e2d1608b2090785b7cec8e..3df4478f26231d28cf91bdad75189e28be0532de # timeout=10
+Done. Took 2 秒
+Changes found

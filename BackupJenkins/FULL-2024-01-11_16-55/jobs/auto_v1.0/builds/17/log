@@ -1,0 +1,36 @@
+¥Ñ¨Ï¥ÎªÌ [8mha:////4A1U7Qooju7bdClrTlY6u2ZYDAMIeKZGrEy/JEoBt3btAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9xJTEPACulnT/vwAAAA==[0madan ±Ò°Ê
+Running as SYSTEM
+¦b Master ¤W«Ø¸m ¤u§@°Ï C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.0
+[auto_v1.0] $ cmd /c call C:\Windows\TEMP\jenkins16604943547322557740.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.0>C:
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.0>cd C:\pytest 
+
+C:\pytest>python test.py 
+Hello world
+
+C:\pytest>exit 0 
+[auto_v1.0] $ C:\ProgramData\Jenkins\.jenkins\tools\ru.yandex.qatools.allure.jenkins.tools.AllureCommandlineInstallation\target_allure-results\bin\allure.bat generate C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.0\allure-report -c -o C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.0\allure-report
+
+ERROR: JAVA_HOME is set to an invalid directory: C:\Program Files\Java\jdk1.8.0_202\bin
+
+Please set the JAVA_HOME variable in your environment to match the
+location of your Java installation.
+ERROR: Build step failed with exception
+ru.yandex.qatools.allure.jenkins.exception.AllurePluginException: Can not generate Allure Report, exit code: 1
+	at ru.yandex.qatools.allure.jenkins.AllureReportPublisher.generateReport(AllureReportPublisher.java:314)
+	at ru.yandex.qatools.allure.jenkins.AllureReportPublisher.perform(AllureReportPublisher.java:231)
+	at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:123)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:78)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:806)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:755)
+	at hudson.model.Build$BuildExecution.post2(Build.java:178)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:699)
+	at hudson.model.Run.execute(Run.java:1913)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:99)
+	at hudson.model.Executor.run(Executor.java:432)
+Build step 'Allure Report' marked build as failure
+Finished: FAILURE

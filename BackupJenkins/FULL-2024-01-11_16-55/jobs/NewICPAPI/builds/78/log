@@ -1,0 +1,69 @@
+�ѨϥΪ� unknown or anonymous �Ұ�
+Running as SYSTEM
+�ظm�� �u�@�� C:\ProgramData\Jenkins\.jenkins\workspace\NewICPAPI
+[NewICPAPI] $ cmd /c call C:\Windows\TEMP\jenkins17936305091576174890.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\NewICPAPI>cmd /c "C:\Python\python.exe C:\testicashapi\run_newicplogin.py" 
+回傳：{"RtnCode":1,"RtnMsg":"訊息代碼：0001，成功","DefaultPubCertID":1,"DefaultPubCert":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4pgu8gTfBSM1HA69jakqet6YXtyy6ChqrVuhfaYUYLoxogbcz7QGrAAB/eRc4Ft9rdoh2xC4BEqeOqYTmm4mR+EIF+d+SQXPH79DP8QoTiBvZFcfeckGBsOEFkk6W0LGqhXIKXg/pQ1wilfh1iWybBx7j5Teo3X7s6pTIf11GmL8BkjkQvdVeDX8s/bQBtKjRvLIUMROeuUEuWvq3rJP7o5E5n2tyw/IeT91Q7thoj691CQbJetZF0Nnj9pJgSw4u1EyvQDxbjRZkuh6PwRAy5Ik6sJ97ghdlrNAkFilYr8kPJoFdqf9bxNa9YpsjptahWNAGvPKViDNbyq8SuR42QIDAQAB"}
+MIIEowIBAAKCAQEAt6Sx6lZkNzS0d7XsW8n2MpzGHY3GMG7sraE7o+BHt470ORLjSmXFpj5wfu4m7GLYRsucYKRFGfA62wLhABnpx95gQ8vYI088tLTYbVaSDjn/0B5zPpjgLNcU5PunSMnUMMG/lgeeMTW9UFWh2t2j3HgSDLPxKOa5rRmq6wMKihuAJZanA0AC5uB1uw8usjQfiiCK7U1Fd4CnWZS/L3FekicnnBL82Y14w2qc6G++N4vxyCyHS2CU+maAN9EYz1526XEhRPTt/XMa+m0Rfzyj+Ls8aXwaGLj+3k3MQSAD/gH3FJ88K9S3KZeZnvENTuW4AoJsEGjntVH2HY89h5jT/QIDAQABAoIBABZQOZnqk1St37un7Cce+/4cVGok3s7lu3ZBX/jCeJRSF1ST+fABO6m+bnbNwwb336WCeea4Lvk+2jfgOqyDeYdierniG8n2h77BNobafPajj3SfLouNkbeBDrXf6eyLMXAXKos1M8Bw8ia/sOHiClXwdOj8ODIrDqZ8turFPNOY3SDjpB9gHFu3EwWPvAVpuREuvnm9JdvloPcb1rTG+AnKvwi0KNp6YcwWiNea9jl6dq1GNbzFk4OHEsDVamm9REUcbEOUwGd/fS0PDVaj7tHMIaetMJfHKZ5xay2p/Q6UR6zsPM8fafVCNSn/kIYbjw8+9VRiTE0Hv0pDTIAAB7UCgYEA2qqzRA37T75NJQzVxgy1L6Q4TlD8X/aeAHdXqAdt/kBuVB4VI2y2UPj0rNcKKbWWY6gnK1o8Zd8MZpNO2ubx/NZzu428UtJmnQiZAWo9StbkUItOBLYJu2TQwAdNqB0D7T/MoLQ7z2OYQQ+YrgWzfzZahahypfR5xGL0nv3JbLcCgYEA1v84OgAH2dbGeODNTmBR8hZURHB6MDcvVLha7i3XsS5NEb/sHhMCazEJV3xcnbhdY/RVolDm9rb3AkYEsXo6dAShFh2MxZit44yNe9J5HNR1j4LJSerf09W4ysz1/RYXVMupwUMwEN625r85K9OPvK18RZZdTbO57polo0lmOOsCgYEA1qcnHzFSeG9pL2uwFqC25DOjCk450MI5TF/a7pmMgkAhjfWR7ppzRn19QoY99b/KB74z5TzJeX9BnxgQGpcHCZpDNePm8K6WCKU9/cOas3LL4b0+MyW32/sVaMxCkTsadbVhXIhRBj7QYV28FWiHUeO7bOV01jBtsDkrxT+AkXUCgYAhcR172BlghwnkL4N/13enolWFN8Gp0kuob+yk87iDNOKECkhd/TL5HW2IkC2P0uej7pOLZe4nHhqZ3e5I9Ow2s6mi2QHWkoMpy+kOA5UXKO0IX52Tw9cBClNuKCdzMIZ8iBllmF/Xn+zvQ3tPF99Zx9p2sIbe2T/on02PcpFV9QKBgGV7ZVf+RJjYsaQzyDiF4SOZxbUXLseJvmRjZUCg5HGphzq1g2uZHhCLK34YiIQpXz1eES+kMAlUeDYKsRP0JSWZAhragQNvc4LY+ZNDFC/gE2v4A/kELEvhECIcOyfbo+DqmeSdwyhhe/93AL8nnUs8QPQlmTOGPin5zhPOJ5RI
+1234567890
+168168168
+{"EncKeyID":257205,"AES_Key":"sm96FGdlRfwBG2KptuyV9mg1khEcbdZd","AES_IV":"e25lFteOQ4dO1vDL","ExpireDate":"2024/01/12 14:16:05","Timestamp":"2024/01/11 14:16:05"}
+SendOTP
+{"AuthCode":"237942","ExpireMinutes":"5"}
+237942
+無法解析的 Timestamp：
+Timestamp 誤差過大：
+SendOTP
+{"EncData":"G89h4kae7V+PXB5nJwnow8TEtq2CbJ8jAsoVgVGJ/a31F8YaqzSyNQjoCR7tzlWk","RtnCode":1,"RtnMsg":"訊息代碼：0001，成功"}
+回傳：{"RtnCode":1,"RtnMsg":"訊息代碼：0001，成功","DefaultPubCertID":1,"DefaultPubCert":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4pgu8gTfBSM1HA69jakqet6YXtyy6ChqrVuhfaYUYLoxogbcz7QGrAAB/eRc4Ft9rdoh2xC4BEqeOqYTmm4mR+EIF+d+SQXPH79DP8QoTiBvZFcfeckGBsOEFkk6W0LGqhXIKXg/pQ1wilfh1iWybBx7j5Teo3X7s6pTIf11GmL8BkjkQvdVeDX8s/bQBtKjRvLIUMROeuUEuWvq3rJP7o5E5n2tyw/IeT91Q7thoj691CQbJetZF0Nnj9pJgSw4u1EyvQDxbjRZkuh6PwRAy5Ik6sJ97ghdlrNAkFilYr8kPJoFdqf9bxNa9YpsjptahWNAGvPKViDNbyq8SuR42QIDAQAB"}
+168168168
+{"EncKeyID":257206,"AES_Key":"b3H8QGydxucz72I8gSjsMAiQrV6iMl5m","AES_IV":"2ItivsxOe8HeBKAA","ExpireDate":"2024/01/12 14:16:07","Timestamp":"2024/01/11 14:16:07"}
+VerifyOTP
+{"Token":"jSmsJPkEG5f4cOK6rXA1G2BFnxxHhajh9Oj4LRuuhKo=","IsICPMember":1,"NextStep":4,"Timestamp":"2024/01/11 14:16:07"}
+jSmsJPkEG5f4cOK6rXA1G2BFnxxHhajh9Oj4LRuuhKo=
+VerifyOTP
+{"EncData":"goiqWNDTTH/2aOaPklDiyD4Mo5cm9kGjzYxSFrGF5YlPM/FiI48PfNtkBsuTe0TMIH4OklZQ62UQiwnZahyJ1MsC5gC5AJjInqU617go8RR4SDtx6G3OJ/nAVMVSBFQoE7+4f1k2hbZ5MWTa7P90vowcobsnCcbs5LfqMzPPbFo=","RtnCode":1,"RtnMsg":"訊息代碼：0001，成功"}
+回傳：{"RtnCode":1,"RtnMsg":"訊息代碼：0001，成功","DefaultPubCertID":1,"DefaultPubCert":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4pgu8gTfBSM1HA69jakqet6YXtyy6ChqrVuhfaYUYLoxogbcz7QGrAAB/eRc4Ft9rdoh2xC4BEqeOqYTmm4mR+EIF+d+SQXPH79DP8QoTiBvZFcfeckGBsOEFkk6W0LGqhXIKXg/pQ1wilfh1iWybBx7j5Teo3X7s6pTIf11GmL8BkjkQvdVeDX8s/bQBtKjRvLIUMROeuUEuWvq3rJP7o5E5n2tyw/IeT91Q7thoj691CQbJetZF0Nnj9pJgSw4u1EyvQDxbjRZkuh6PwRAy5Ik6sJ97ghdlrNAkFilYr8kPJoFdqf9bxNa9YpsjptahWNAGvPKViDNbyq8SuR42QIDAQAB"}
+168168168
+{"EncKeyID":257207,"AES_Key":"qMclou6T93Tk1GZGLuiqNQHyUbBLOmIN","AES_IV":"0htO9H7tCdsFKF2f","ExpireDate":"2024/01/12 14:16:08","Timestamp":"2024/01/11 14:16:08"}
+16616166
+{"IsNewVer":1}
+無法解析的 Timestamp：
+Timestamp 誤差過大：
+VeriyfAccount
+{"EncData":"HotKQ9ZjOH8sca+HKaYExw==","RtnCode":1,"RtnMsg":"訊息代碼：0001，成功"}
+16616166
+{"FingerPrintPwd":"","GraphicLockStatus":1}
+無法解析的 Timestamp：
+Timestamp 誤差過大：
+GetMemberData
+{"EncData":"KSwkWi9J1Z3jugcYV4mHmAFgbBZTUmjHyYnArQeVKU7sckDbDgElDgdBiyWh+Bsi","RtnCode":1,"RtnMsg":"訊息代碼：0001，成功"}
+16616166
+{"Timestamp":"2024/01/11 14:16:08"}
+VerifySecurityCode
+{"EncData":"05TW4leMGmQ6h1fdzkBH3lxqRyVEG25/qWKrbymSz+Le5kHrPYXm5R/aL0jTeIB2","RtnCode":1,"RtnMsg":"訊息代碼：0001，成功"}
+16616166
+{"Timestamp":"2024/01/11 14:16:08"}
+VerifyDeviceID
+{"EncData":"05TW4leMGmQ6h1fdzkBH3lxqRyVEG25/qWKrbymSz+Le5kHrPYXm5R/aL0jTeIB2","RtnCode":1,"RtnMsg":"訊息代碼：0001，成功"}
+16616166
+{"Timestamp":"2024/01/11 14:16:09"}
+SetDeviceID
+{"EncData":"05TW4leMGmQ6h1fdzkBH3lxqRyVEG25/qWKrbymSz+KtkXU2GS/vD8DTnzViLnx9","RtnCode":1,"RtnMsg":"訊息代碼：0001，成功"}
+16616166
+{"NextStep":100,"Timestamp":"2024/01/11 14:16:09"}
+GetMemberStatus
+{"EncData":"3jVZlMf9OYj1vhOmBLQXTAdde+MqNcB16s/JA0njmBIpcQ/UZWX5vaO9/X9uM1Mqzasi9GYW7YhzYpi4sza6nQ==","RtnCode":1,"RtnMsg":"訊息代碼：0001，成功"}
+16616166
+{"Timestamp":"2024/01/11 14:16:09"}
+MemberLogin
+{"EncData":"05TW4leMGmQ6h1fdzkBH3lxqRyVEG25/qWKrbymSz+KtkXU2GS/vD8DTnzViLnx9","RtnCode":1,"RtnMsg":"訊息代碼：0001，成功"}
+Process for C:\IcashPost\NEWICPAPI\NewLogin\ML201\ConsoleApp1\bin\Debug\ConsoleApp1.exe has finished.
+Process for C:\IcashPost\NEWICPAPI\NewLogin\ML202\ConsoleApp1\bin\Debug\ConsoleApp1.exe has finished.
+Process for C:\IcashPost\NEWICPAPI\NewLogin\ML203\ConsoleApp1\bin\Debug\ConsoleApp1.exe has finished.
+Chart generated: C:\IcashPost\NEWICPAPI\NewLogin\ML203\ConsoleApp1\bin\Debug\apichart\chart_2024-01-11_14-16-24.png
+Report generated: C:\ProgramData\Jenkins\.jenkins\workspace\ICPAPI\newloginapireport\report_2024-01-11_14-16-24.html
+
+C:\ProgramData\Jenkins\.jenkins\workspace\NewICPAPI>exit 0 
+Finished: SUCCESS

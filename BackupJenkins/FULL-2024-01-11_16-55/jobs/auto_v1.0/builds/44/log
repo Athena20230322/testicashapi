@@ -1,0 +1,19 @@
+由計時器啟動
+Running as SYSTEM
+建置中 工作區 C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.0
+[auto_v1.0] $ cmd /c call C:\Windows\TEMP\jenkins15648950607451256429.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.0>C:
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.0>cd C:\pytest 
+
+C:\pytest>python test.py --alluredir ./allure_report 
+Hello world
+
+C:\pytest>exit 0 
+[auto_v1.0] $ C:\allure-2.20.1\bin\allure.bat generate C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.0\allure_report -c -o C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.0\allure_report\html
+Report successfully generated to C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.0\allure_report\html
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: SUCCESS

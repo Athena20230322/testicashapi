@@ -1,0 +1,26 @@
+由計時器啟動
+Running as SYSTEM
+建置中 工作區 C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+[auto_v1.1] $ cmd /c call C:\Windows\TEMP\jenkins8164756850367655353.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>C:
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>cd C:\pytest 
+
+C:\pytest>pytest test_demo.py -s -q --alluredir=./allure-report/ 
+a 的數值為 2
+b 的數值為 4
+.
+1 passed in 0.02s
+
+C:\pytest>allure serve ./allure-report 
+'allure' 不是內部或外部命令、可執行的程式或批次檔。
+
+C:\pytest>exit 9009 
+Build step '執行 Windows 批次指令' marked build as failure
+[auto_v1.1] $ C:\allure-2.20.1\bin\allure.bat generate C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\allure-report\html -c -o C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\allure-report\htmlg
+Report successfully generated to C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\allure-report\htmlg
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: FAILURE

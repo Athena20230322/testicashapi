@@ -1,0 +1,40 @@
+¥Ñ¨Ï¥ÎªÌ [8mha:////4A1U7Qooju7bdClrTlY6u2ZYDAMIeKZGrEy/JEoBt3btAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9xJTEPACulnT/vwAAAA==[0madan ±Ò°Ê
+Running as SYSTEM
+«Ø¸m¤¤ ¤u§@°Ï C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1
+[auto_v1.1] $ cmd /c call C:\Windows\TEMP\jenkins6787807814206867729.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>C:
+
+C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1>cd C:\pytest 
+
+C:\pytest>pytest test_demo.py -s -q --alluredir=./allure-report/ 
+a ªº¼Æ­È¬° 2
+b ªº¼Æ­È¬° 4
+.
+1 passed in 0.02s
+
+C:\pytest>exit 0 
+FATAL: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.lang.StringUTF16.compress(StringUTF16.java:168)
+	at java.base/java.lang.StringUTF16.newString(StringUTF16.java:1019)
+	at java.base/java.lang.String.substring(String.java:1847)
+	at org.jvnet.winp.WinProcess.parseCmdLineAndEnvVars(WinProcess.java:165)
+	at org.jvnet.winp.WinProcess.getEnvironmentVariables(WinProcess.java:146)
+	at hudson.util.ProcessTree$WindowsOSProcess.getEnvironmentVariables2(ProcessTree.java:643)
+	at hudson.util.ProcessTree$WindowsOSProcess.hasMatchingEnvVars2(ProcessTree.java:655)
+	at hudson.util.ProcessTree$WindowsOSProcess.access$700(ProcessTree.java:544)
+	at hudson.util.ProcessTree$Windows.hasMatchingEnvVars(ProcessTree.java:732)
+	at hudson.util.ProcessTree$Windows.killAll(ProcessTree.java:707)
+	at hudson.Launcher$LocalLauncher.kill(Launcher.java:1015)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1888)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:99)
+	at hudson.model.Executor.run(Executor.java:432)
+[auto_v1.1] $ C:\allure-2.20.1\bin\allure.bat generate C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\allure-report\html -c -o C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\allure-report\htmlg
+Report successfully generated to C:\ProgramData\Jenkins\.jenkins\workspace\auto_v1.1\allure-report\htmlg
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: FAILURE

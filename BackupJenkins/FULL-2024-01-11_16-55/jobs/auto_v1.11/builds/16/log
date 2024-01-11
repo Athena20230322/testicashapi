@@ -1,0 +1,27 @@
+由使用者 unknown or anonymous 啟動
+Running as SYSTEM
+建置中 工作區 C:\pytest
+[pytest] $ cmd /c call C:\Windows\TEMP\jenkins15780515544354993397.bat
+
+C:\pytest>C:
+
+C:\pytest>pytest -vs test_demo.py -s -q --alluredir target/allure-results 
+============================= test session starts =============================
+platform win32 -- Python 3.11.1, pytest-7.2.0, pluggy-1.0.0
+rootdir: C:\pytest
+plugins: allure-pytest-2.12.0, html-3.2.0, json-report-1.5.0, metadata-2.0.4, testconfig-0.2.0
+collected 1 item
+
+test_demo.py a 的數值為 2
+b 的數值為 4
+.
+
+============================== 1 passed in 0.03s ==============================
+
+C:\pytest>exit 0 
+[pytest] $ C:\allure-2.20.1\bin\allure.bat generate C:\pytest\target\allure-results -c -o C:\pytest\target\allure-report
+Report successfully generated to C:\pytest\target\allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: SUCCESS
