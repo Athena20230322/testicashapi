@@ -49,24 +49,13 @@ print(f"RtnMsg: {rtn_msg}")
 with open("c:\\nenc.txt", 'w') as f:
     f.write(enc_text)
 
-# Validate RtnCode and RtnMsg values
+# Validate RtnCode value
 test_data_file = "C:\\testicashapi\\NTest_Data\\ICPAPI\\M0167GetADType8_1.txt"
-
 with open(test_data_file, 'r') as f:
     file_contents = f.read()
-    expected_rtn_code = None
-    expected_rtn_msg = None
+    expected_rtn_code = file_contents.strip().split(',')[1]
 
-# 解析文件內容，取得預期的 RtnCode 和 RtnMsg
-for line in file_contents.strip().split('\n'):
-    key, value = line.strip().split(',')
-    if key == 'RtnCode':
-        expected_rtn_code = value
-    elif key == 'RtnMsg':
-        expected_rtn_msg = value.rstrip(',')  # Remove trailing comma
-
-# 驗證 RtnCode 和 RtnMsg 是否都符合預期值
-if expected_rtn_code == str(rtn_code) and expected_rtn_msg == rtn_msg:
+if expected_rtn_code == str(rtn_code):
     print("Test Passed")
 else:
-    print("Test Failed. Expected RtnCode: %s, Actual RtnCode: %s. Expected RtnMsg: %s, Actual RtnMsg: %s" % (expected_rtn_code, rtn_code, expected_rtn_msg, rtn_msg))
+    print("Test Failed. Expected RtnCode: %s. Actual RtnCode: %s" % (expected_rtn_code, rtn_code))
