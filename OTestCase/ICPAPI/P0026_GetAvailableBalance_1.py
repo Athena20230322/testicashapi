@@ -46,7 +46,7 @@ print(f"RtnMsg: {rtn_msg}")
 
 #enc_text = response.json()["EncData"]
 
-with open("c:\\Lenc.txt", 'w') as f:
+with open("c:\\enc\\Lenc.txt", 'w') as f:
     f.write(enc_text)
 
 # Validate RtnCode value

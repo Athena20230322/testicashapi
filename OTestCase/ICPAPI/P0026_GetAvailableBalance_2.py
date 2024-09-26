@@ -6,7 +6,7 @@ from Crypto.Util.Padding import unpad
 with open('C:/IcashPost/ICPLogin/M0005_3/ConsoleApp1/bin/Debug/keyiv1.txt', 'r') as f:
     key_iv = json.load(f)
 
-with open('C:/Lenc.txt', 'r') as f:
+with open('C:/enc/Lenc.txt', 'r') as f:
     encrypted_data = f.read()
 
 aes_key = key_iv['AES_Key']

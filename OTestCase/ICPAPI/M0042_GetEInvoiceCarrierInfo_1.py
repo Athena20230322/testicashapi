@@ -41,12 +41,12 @@ enc_text = response_json['EncData']
 # Print the values of RtnCode, RtnMsg, and EncData
 print(f"RtnCode: {rtn_code}")
 print(f"RtnMsg: {rtn_msg}")
-#print(f"EncData: {enc_text}")
+print(f"EncData: {enc_text}")
 
 
 #enc_text = response.json()["EncData"]
 
-with open("c:\\Lenc.txt", 'w') as f:
+with open("c:\\enc\\Lenc.txt", 'w') as f:
     f.write(enc_text)
 
 # Validate RtnCode value

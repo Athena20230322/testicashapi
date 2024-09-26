@@ -50,7 +50,7 @@ print(f"RtnMsg: {rtn_msg}")
 
 #enc_text = response.json()["EncData"]
 
-with open("c:\\Lenc.txt", 'w') as f:
+with open("c:\\enc\\Lenc.txt", 'w') as f:
     f.write(enc_text)
 
 # Validate RtnCode value
@@ -64,7 +64,7 @@ with open(test_data_file, 'r') as f:
     with open('C:/IcashPost/ICPLogin/M0005_3/ConsoleApp1/bin/Debug/keyiv1.txt', 'r') as f:
         key_iv = json.load(f)
 
-    with open('C:/Lenc.txt', 'r') as f:
+    with open('C:/enc/Lenc.txt', 'r') as f:
         encrypted_data = f.read()
 
     aes_key = key_iv['AES_Key']

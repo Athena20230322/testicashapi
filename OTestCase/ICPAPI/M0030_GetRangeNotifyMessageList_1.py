@@ -4,7 +4,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-postData = "C:\\testicashapi\\LpostData\\postData6.txt"
+postData = "C:\\testicashapi\\OpostData\\postData6.txt"
 
 #postData = os.path.join('C:', os.sep, 'IcashPost', 'ICPAPIVS', 'CreateBarcode', 'icashendurance',
                         #'ConsoleApp1', 'bin', 'Debug', 'postData1.txt')
@@ -46,11 +46,11 @@ print(f"RtnMsg: {rtn_msg}")
 
 #enc_text = response.json()["EncData"]
 
-with open("c:\\Lenc.txt", 'w') as f:
+with open("c:\\enc\\Lenc.txt", 'w') as f:
     f.write(enc_text)
 
 # Validate RtnCode value
-test_data_file = "C:\\testicashapi\\LTestData\\ICPAPI\\M0030_GetRangeNotifyMessageList_1.txt"
+test_data_file = "C:\\testicashapi\\OTestData\\ICPAPI\\M0030_GetRangeNotifyMessageList_1.txt"
 with open(test_data_file, 'r') as f:
     file_contents = f.read()
     expected_rtn_code = file_contents.strip().split(',')[1]

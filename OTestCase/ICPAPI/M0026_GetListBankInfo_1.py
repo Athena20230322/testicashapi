@@ -4,7 +4,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-postData = "C:\\testicashapi\\LpostData\\postData18.txt"
+postData = "C:\\testicashapi\\OpostData\\postData18.txt"
 
 #postData = os.path.join('C:', os.sep, 'IcashPost', 'ICPAPIVS', 'CreateBarcode', 'icashendurance',
                         #'ConsoleApp1', 'bin', 'Debug', 'postData1.txt')
@@ -38,7 +38,11 @@ rtn_code = response_json['RtnCode']
 rtn_msg = response_json['RtnMsg']
 enc_text = response_json['EncData']
 
-# Print the values of RtnCode, RtnMsg, and EncData
+
+
+
+# Print the values of RtnCode RtnMsg and EncData
+
 print(f"RtnCode: {rtn_code}")
 print(f"RtnMsg: {rtn_msg}")
 #print(f"EncData: {enc_text}")
@@ -46,11 +50,11 @@ print(f"RtnMsg: {rtn_msg}")
 
 #enc_text = response.json()["EncData"]
 
-with open("c:\\Lenc.txt", 'w') as f:
+with open("c:\\enc\\Lenc.txt", 'w') as f:
     f.write(enc_text)
 
 # Validate RtnCode value
-test_data_file = "C:\\testicashapi\\LTestData\\ICPAPI\\M0026_GetListBankInfo_1.txt"
+test_data_file = "C:\\testicashapi\\OTestData\\ICPAPI\\M0026_GetListBankInfo_1.txt"
 with open(test_data_file, 'r') as f:
     file_contents = f.read()
     expected_rtn_code = file_contents.strip().split(',')[1]
